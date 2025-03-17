@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Document ProgramVersion="13.2.4.44097" Generator="GrandSmeta" DocumentType="{2B0470FD-477C-4359-9F34-EEBE36B7D340}">
+  <GsDocSignatures>
+    <Item Caption="Основание" ID="100"/>
+    <Item Caption="Заказчик" ID="230"/>
+    <Item Caption="Утверждаю" ID="200"/>
+    <Item Caption="Подрядчик" ID="240"/>
+    <Item Caption="Согласовано" ID="210"/>
+    <Item Caption="Дата составления сметы" ID="102"/>
+    <Item Caption="Составил" ID="300"/>
+    <Item Caption="Проверил" ID="310"/>
+  </GsDocSignatures>
+  <RegionalK Options="Percent Base"/>
+  <TerZoneK Caption="Территориальная поправка к базе 2001г" Options="Base PzAll EmAll"/>
+  <Koefficients>
+    <K Caption="Затраты, учитывающие усложненные условия производства работ (стесненность, сложность, складирования и транспортной логистики, наличие в зоне производства работ действующего технологического оборудования или движения технологического транспорта и т.п.) - в) для объектов, расположенных за пределами территории пунктов «а» и «б», но в пределах Московской кольцевой автомобильной дороги" Code="ТСН-2001.12 п.п.3.4.30.в" Options="InPos Base Curr EmAll EmQty OzpTz ZpmTz" Value_OZ="1,1" Value_EM="1,1" Level="10"/>
+  </Koefficients>
+  <WinterCatalog Options="OzpTz" WinterMode="K" WinterLinkMode="Table">
+    <WinterK Caption="Разработка грунта экскаваторами в отвал с погрузкой в автосамосвалы" Code="1.1.1" OZ="1,192" EM="1,192" ZM="1,192"/>
+    <WinterK Caption="Разработка и обратная засыпка грунта бульдозерами, механизированное рыхление грунта, уплотнение грунта прицепными катками" Code="1.1.3" OZ="1,014" EM="1,014" ZM="1,014"/>
+    <WinterK Caption="Уплотнение грунта трамбовками, водоотлив; подготовительные работы при валке деревьев и расчистке площадей" Code="1.1.5" OZ="1,047" EM="1,047" ZM="1,047"/>
+    <WinterK Caption="Теплоизоляционные работы" Code="1.21" OZ="1,047" EM="1,047" ZM="1,047" MT="1,019"/>
+    <WinterK Caption="Берегоукрепительные работы. Крепление откосов сборными железобетонными плитами и массивами, подпорные стенки" Code="1.25.2" OZ="1,047" EM="1,047" ZM="1,047" MT="1,002"/>
+    <WinterK Caption="Разные работы" Code="1.31"/>
+    <WinterK Caption="Другие виды земляных работ, подготовительные, сопутствующие и укрепительные работы" Code="1.1.6"/>
+    <WinterK Caption="Разработка экскаваторами выемок, карьеров и укладка грунта в кавальеры и насыпи в дорожном строительстве" Code="1.1.2" OZ="1,082" EM="1,082" ZM="1,082"/>
+    <WinterK Caption="Разработка и обратная засыпка грунта вручную" Code="1.1.4" OZ="1,248" EM="1,248" ZM="1,248"/>
+    <WinterK Caption="Берегоукрепительные работы. Каменная наброска, крепление откосов монолитным бетоном и железобетоном" Code="1.25.1" OZ="1,047" EM="1,047" ZM="1,047" MT="1,028"/>
+    <WinterK Caption="Бетонные и железобетонные монолитные конструкции. Жилых, гражданских и промышленных зданий" Code="1.7.1" OZ="1,047" EM="1,047" ZM="1,047" MT="1,022"/>
+    <WinterK Caption="Бетонные и железобетонные монолитные конструкции. Сооружений водопровода и канализации" Code="1.7.2" OZ="1,047" EM="1,047" ZM="1,047" MT="1,062"/>
+    <WinterK Caption="Гидроизоляция стен, фундаментов и массивов рулонными материалами" Code="1.9" OZ="1,047" EM="1,047" ZM="1,047" MT="1,068"/>
+    <WinterK Caption="Дорожные работы. Основания под дороги" Code="1.23.1" OZ="1,047" EM="1,047" ZM="1,047" MT="1,002"/>
+    <WinterK Caption="Наружные отделочные работы (штукатурные, малярные, обойные, облицовочные, стекольные, гранитно-мраморные)" Code="1.16.1" OZ="1,047" EM="1,047" ZM="1,047" MT="1,003"/>
+    <WinterK Caption="Полы" Code="1.15" OZ="1,047" EM="1,047" ZM="1,047"/>
+    <WinterK Caption="Основание под фундаменты, трубопроводы, иловые площадки и поля фильтрации (песчаные, гравийные и щебеночные)" Code="1.6" OZ="1,047" EM="1,047" ZM="1,047" MT="1,003"/>
+    <WinterK Caption="Бетонные и железобетонные сборные конструкции" Code="1.8" OZ="1,087" EM="1,087" ZM="1,087" MT="1,003"/>
+    <WinterK Caption="Другие строительные работы" Code="1.28" OZ="1,047" EM="1,047" ZM="1,047"/>
+    <WinterK Caption="Другие ремонтно-строительные работы (усиление конструкций, кладка стен из штучных материалов, устройство лесов и др.)" Code="2.13" OZ="1,047" EM="1,047" ZM="1,047" MT="1,002"/>
+    <CommonWinterK/>
+  </WinterCatalog>
+  <RegionInfo RegionName="ТСН-2001 г. Москвы (с доп.1-69)" RegionID="3069" Zone84Name="Базовый территориальный район" Zone84ID="1" Zone01Name="г. Москва" Zone01ID="1" AdmRegionCode="50"/>
+  <FRSN_Info BaseType="TER" BaseName="Сборники территориальных сметных нормативов для города Москвы" RegNumber="1" RegDate="21.01.2014"/>
+  <Parameters Options="AddZatr SeparateFot AutoIndexes AutoIndexUseCode MtsnMode NaklByIndex PlanByIndex WintByIndex CustNPZpm RoundNPBase RoundNPCurr RoundNPNoIdx NoRoundForOnePos MultPosK" BasePrices="2001" BaseCalcVrs="Vr2001" TzDigits="2" BlockRoundMode="Summ" MultKPosCalcMode="UseTotalMult" TempZone="1" TsnTempZone="1" MatDigits="4" MatRoundMode="None" PosKDigits="-10" ItogOptions="IgnoreZeroQty IgnoreZeroPrice" FirstItogItem="None" ItogExpandTo="Default" PropsConfigName="4.1. Расчет по ТСН на новое строительство">
+    <CommonNK ActiveItems="Vk Ck Mk"/>
+    <CommonPK ActiveItems="Vk Ck Mk"/>
+    <MtsnNPZpm NB="98" PB="77" NC="95" PC="65"/>
+    <Numbering Mode="Sequential" Options="Auto"/>
+  </Parameters>
+  <Indexes IndexesMode="PosOne" IndexesLinkMode="Default">
+    <CategoryIndexes Construction="IV квартал 2022 года" ConstrTransportation="IV квартал 2022 года"/>
+    <IndexesPos>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-2-7" SMR="10,38" OZ="29,03" EM="10,1" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,192" EM="1,192" ZM="1,192" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-30-1" SMR="10,03" OZ="29,03" EM="10,41" ZM="29,03" MT="6">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-8-1" SMR="11,91" OZ="29,03" EM="10,95" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-14-1" SMR="10,83" OZ="29,03" EM="10,83" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-28-6" SMR="11,03" OZ="29,03" EM="11,03" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-28-12" SMR="13,06" OZ="29,03" EM="13,06" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-35-5" SMR="17,01" OZ="29,03" EM="10,57" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,082" EM="1,082" ZM="1,082" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-11-2" SMR="10,93" OZ="29,03" EM="10,93" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-11-4" SMR="10,93" OZ="29,03" EM="10,93" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,014" EM="1,014" ZM="1,014" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.200)" Code="1" MT="8,87"/>
+      <Index/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-50-1" SMR="29,03" OZ="29,03" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,87" ZM="0,87" Type="NR"/>
+          <AddOn OZ="0,41" ZM="0,41" Type="SP"/>
+          <AddOn OZ="1,248" EM="1,248" ZM="1,248" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.42-6-1" SMR="29,03" OZ="29,03" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,92" ZM="0,92" Type="NR"/>
+          <AddOn OZ="0,55" ZM="0,55" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,028" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.1-1-1521" MT="14,61"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.6-1-1" SMR="16,07" OZ="29,03" EM="10,19" ZM="29,03" MT="6,51">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,66" ZM="0,66" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,022" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-1-138" MT="8,2"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.6-1-20" SMR="15,82" OZ="29,03" EM="10,5" ZM="29,03" MT="6,61">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,66" ZM="0,66" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,022" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-1-142" MT="7,39"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-4-22" MT="11,2"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-4-23" MT="9,9"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-4-3" MT="12,19"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.6-100-3" SMR="22,67" OZ="29,03" EM="8,31" ZM="29,03" MT="9,34">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,66" ZM="0,66" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,062" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.1-1-3685" MT="3,85"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.8-2-7" SMR="26,06" OZ="29,03" EM="12,43" ZM="29,03" MT="8,94">
+        <IndexesAddOns>
+          <AddOn OZ="0,87" ZM="0,87" Type="NR"/>
+          <AddOn OZ="0,41" ZM="0,41" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,068" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.1-1-606" MT="6,31"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.27-12-1" SMR="12,46" OZ="29,03" EM="10,55" ZM="29,03" MT="6">
+        <IndexesAddOns>
+          <AddOn OZ="1,34" ZM="1,34" Type="NR"/>
+          <AddOn OZ="0,55" ZM="0,55" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,002" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.1-1-1695" MT="1,52"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.15-160-2" SMR="23,73" OZ="29,03" EM="9,9" ZM="29,03" MT="21,67">
+        <IndexesAddOns>
+          <AddOn OZ="0,9" ZM="0,9" Type="NR"/>
+          <AddOn OZ="0,42" ZM="0,42" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,003" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.27-69-1" SMR="16,25" OZ="29,03" EM="10,77" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="1,34" ZM="1,34" Type="NR"/>
+          <AddOn OZ="0,55" ZM="0,55" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,002" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.1-1-766" MT="6,88"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.1-29-1" SMR="18,3" OZ="29,03" EM="15,33" ZM="29,03">
+        <IndexesAddOns>
+          <AddOn OZ="0,94" ZM="0,94" Type="NR"/>
+          <AddOn OZ="0,51" ZM="0,51" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-4-46" MT="13,84"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.30-12-1" SMR="14,66" OZ="29,03" EM="10,28" ZM="29,03" MT="6,05">
+        <IndexesAddOns>
+          <AddOn OZ="0,96" ZM="0,96" Type="NR"/>
+          <AddOn OZ="0,65" ZM="0,65" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,003" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="3.42-10-1" SMR="14,39" OZ="29,03" EM="9,58" ZM="29,03" MT="9,89">
+        <IndexesAddOns>
+          <AddOn OZ="0,92" ZM="0,92" Type="NR"/>
+          <AddOn OZ="0,55" ZM="0,55" Type="SP"/>
+          <AddOn OZ="1,047" EM="1,047" ZM="1,047" MT="1,028" Type="ZU"/>
+        </IndexesAddOns>
+      </Index>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-1-41" MT="8,05"/>
+      <Index Caption="Июль 2023 (вып.202)" Code="1.3-4-189" MT="5,01"/>
+      <Index Caption="Внешние инженерные сети теплоснабжения" Code="(77), ФЕР, 3 кв 2023 (СМР), Письмо Минстроя России от 28.08.2023 №52355-ИФ/09, прил.1" OZ="37,34" EM="13,14" ZM="37,34" MT="9,42"/>
+    </IndexesPos>
+  </Indexes>
+  <AddZatrats>
+    <AddZatrGlava Glava="8">
+      <AddZatr Caption="ВЗиС" Options="Percent InSmr HideZero" Formula=""/>
+    </AddZatrGlava>
+    <AddZatrGlava Glava="9"/>
+    <AddZatrGlava Glava="10"/>
+    <AddZatrGlava Glava="11"/>
+    <AddZatrGlava Glava="12"/>
+    <AddZatrGlava Glava="13"/>
+    <AddZatrGlava Glava="14"/>
+    <AddZatrGlava Glava="15">
+      <AddZatr Caption="НДС" Value="20" Options="Percent HideZero" Level="1"/>
+    </AddZatrGlava>
+  </AddZatrats>
+  <OsInfo OSChapter="1" LinkType="LB">
+    <CCChapter Cons="2" Rec="2" Road="2"/>
+  </OsInfo>
+  <CennikAutoLoad Enabled="False" MatchFields="Code" Groups="Tzr Tzm Mch Mat" SubGroups="Standart Positions" Options="IgnoreCodePrefix" PriceTypes="PriceBase PriceCurr">
+    <DocLink/>
+  </CennikAutoLoad>
+  <VidRab_Catalog Caption="ТСН новое строительство">
+    <Vids_Rab Type="Виды работ 2001г" CatFile="ВР ТСН" NrspFile="НРСП ТСН новое строительство">
+      <VidRab_Group Caption="Общестроительные работы" ID="0"/>
+      <VidRab_Group Caption="Перевозка грузов" ID="1013"/>
+      <VidRab_Group Caption="Реконструкция" ID="6"/>
+      <VidRab_Group Caption="Сантехнические работы" ID="4"/>
+      <VidRab_Group Caption="Монтаж металлоконструкций" ID="1"/>
+      <VidRab_Group Caption="Ремонтно-строительные работы" ID="5"/>
+      <VidRab_Group Caption="Монтажные работы" ID="10003"/>
+      <VidRab_Group Caption="Строительные работы для базы ТСН" ID="1019">
+        <Vid_Rab Caption="Земляные работы, выполняемые механизированным способом" ID="10844" Nacl="98" Plan="77" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Теплоизоляционные работы" ID="10830" Nacl="98" Plan="73" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Берегоукрепительные работы, гидротехнические сооружения" ID="10631" Nacl="84" Plan="114" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Автомобильные дороги" ID="10622" Nacl="161" Plan="107" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Мосты, трубы и путепроводы" ID="10625" Nacl="105" Plan="134" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Земляные работы, выполняемые ручным способом (сопутствующие работы, подготовительные работы, связанные с валкой деревьев и расчисткой площадей)" ID="10845" Nacl="105" Plan="77" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Бетонные и железобетонные конструкции монолитные" ID="10606" Nacl="98" Plan="70" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Другие строительные работы" ID="10848" Nacl="105" Plan="77" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Отделочные работы (малярные, штукатурные, стекольные, облицовочные, обойные, лепные)" ID="10617" Nacl="120" Plan="84" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Полы" ID="10613" Nacl="120" Plan="84" NaclMask="ОЗ" PlanMask="ОЗ"/>
+        <Vid_Rab Caption="Бетонные и железобетонные конструкции сборные" ID="10607" Nacl="159" Plan="119" NaclMask="ОЗ" PlanMask="ОЗ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Транспортные затраты для базы ТСН" ID="1022">
+        <Vid_Rab Caption="Перевозка грунта и строительного мусора" ID="10818" OsColumn="П" Nacl="98" Plan="77" NaclMask="ОЗ" PlanMask="ОЗ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Ремонтно-строительные работы для базы ТСН" ID="1020">
+        <Vid_Rab Caption="Другие ремонтно-строительные работы (усиление конструкций, кладка стен из штучных материалов, устройство лесов и др.)" ID="10714" Nacl="91" Plan="70" NaclMask="ОЗ" PlanMask="ОЗ"/>
+      </VidRab_Group>
+    </Vids_Rab>
+    <Vids_Rab Type="Виды работ 1984г"/>
+  </VidRab_Catalog>
+  <Chapters>
+    <Chapter Caption="Земляные работы" SysID="1">
+      <Position Caption="Разработка грунта в отвал экскаваторами с ковшом вместимостью 0,65 м3 группа грунтов 1-3  //  снятие растительного слоя грунта толщ 0,15 м" Number="1" Code="3.1-2-7" ColorIndex="9" Units="100 м3" SysID="167" PriceLevel="2001" DBComment="Доп. 61, Доп. 68" Quantity="ОКР(166,8 / 100; 7)" IndexCode="3.1-2-7" DBFlags="TechK" PzSync="Yes" Vr2001="10844" WinterK="1.1.1">
+        <Quantity Fx="=166,8" KUnit="100" Precision="7" Result="1,668"/>
+        <PriceBase PZ="638,87" OZ="9,5" EM="629,37" ZM="43,35"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="0,93"/>
+          <Mch Caption="Экскаваторы на гусеничном ходу гидравлические, объем ковша до 0,65 м3" Code="2.1-1-5" Units="маш.час" Quantity="2,5605">
+            <PriceBase Value="245,8" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разработка грунта навымет"/>
+          <Work Caption="Устройство и содержание водоотливных канав или ограждающих валиков"/>
+          <Work Caption="Вспомогательные работы, связанные с перемещением экскаватора из забоя в забой"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Разработка грунта с погрузкой на автомобили-самосвалы экскаваторами с ковшом вместимостью 0,65 м3 группа грунтов 1-3  //  механизиров разработка  95% *2905 м3" Number="2" Code="3.1-6-7" ColorIndex="9" Units="100 м3 грунта" SysID="314" PriceLevel="2001" DBComment="Доп. 59, Доп. 61, Доп. 68" Quantity="ОКР((2905*0,95) / 100; 7)" IndexCode="3.1-2-7" DBFlags="TechK" PzSync="Yes" Vr2001="10844" WinterK="1.1.1">
+        <Quantity Fx="=2905*0,95" KUnit="100" Precision="7" Result="27,5975"/>
+        <PriceBase PZ="882,52" OZ="10,73" EM="871,79" ZM="64,22"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="1,05"/>
+          <Mch Caption="Экскаваторы на гусеничном ходу гидравлические, объем ковша до 0,65 м3" Code="2.1-1-5" Units="маш.час" Quantity="3,0325">
+            <PriceBase Value="245,8" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="0,761">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разработка грунта экскаваторами с погрузкой на автомобили-самосвалы"/>
+          <Work Caption="Планировка поверхности забоя и земляного полотна забойной дороги бульдозером"/>
+          <Work Caption="Содержание забойной дороги"/>
+          <Work Caption="Вспомогательные работы, связанные с устройством водоотводных канав или ограждающих валиков, выполняемых вручную, с переходом экскаватора с одного места на другое и из забоя в забой и т.д"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Разработка грунта вручную в траншеях шириной более 2 м и котлованах площадью сечения до 5 м2 с глубиной траншей и котлованов до 2 м группа грунтов 1-3  //  Доработка грунта вручную 5%*2905 м3" Number="3" Code="3.1-50-1" ColorIndex="9" Units="100 м3" SysID="318" PriceLevel="2001" Quantity="ОКР((2905*0,05) / 100; 7)" IndexCode="3.1-50-1" DBFlags="TechK" PzSync="Yes" Vr2001="10845">
+        <Quantity Fx="=2905*0,05" KUnit="100" Precision="7" Result="1,4525"/>
+        <PriceBase PZ="3021,52" OZ="3021,52"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="272,7"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разработка грунта с выбрасыванием по полкам на одну сторону бровки"/>
+          <Work Caption="Откидка грунта от бровки"/>
+          <Work Caption="Устройство и разборка полок"/>
+          <Work Caption="Зачистка дна и стенок"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Уплотнение грунта прицепными катками на пневмоколесном ходу 25 т на первый проход по одному следу при толщине слоя, см 40" Number="4" Code="3.1-26-3" ColorIndex="9" Units="100 м3" SysID="316" PriceLevel="2001" DBComment="Доп. 56, Доп. 59, Доп. 64, Доп. 68" Quantity="ОКР(337,4 / 100; 7)" IndexCode="3.1-11-4" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=337,4" KUnit="100" Precision="7" Result="3,374"/>
+        <PriceBase PZ="197,05" EM="197,05" ZM="19,21"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="0,958">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Тракторы гусеничные, мощность до 75 кВт (100 л.с.)" Code="2.1-2-2" Units="маш.час" Quantity="0,101">
+            <PriceBase Value="124,7" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Катки грунтовые вибрационные, масса до 13 т" Code="2.1-5-112" Units="маш.час" Quantity="0,101">
+            <PriceBase Value="250,82" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разравнивание грунта слоями перед уплотнением"/>
+          <Work Caption="Уплотнение грунта"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Уплотнение грунта прицепными катками на пневмоколесном ходу 25 т на каждый последующий проход по одному следу при толщине слоя, см 40" Number="5" Code="3.1-26-9" ColorIndex="9" Units="100 м3" SysID="315" PriceLevel="2001" DBComment="Доп. 56, Доп. 64, Доп. 68, Доп. 69" Quantity="ОКР(337,4 / 100; 7)" IndexCode="3.1-11-4" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=337,4" KUnit="100" Precision="7" Result="3,374"/>
+        <PriceBase PZ="37,93" EM="37,93" ZM="2,98"/>
+        <Resources>
+          <Mch Caption="Тракторы гусеничные, мощность до 75 кВт (100 л.с.)" Code="2.1-2-2" Units="маш.час" Quantity="0,101">
+            <PriceBase Value="124,7" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Катки грунтовые вибрационные, масса до 13 т" Code="2.1-5-112" Units="маш.час" Quantity="0,101">
+            <PriceBase Value="250,82" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <Koefficients>
+          <K Caption="добавл количество проходов до 8" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="7" Level="1"/>
+        </Koefficients>
+        <WorksList>
+          <Work Caption="Разравнивание грунта слоями перед уплотнением"/>
+          <Work Caption="Уплотнение грунта"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Полив водой уплотняемого грунта насыпей" Number="6" Code="3.1-30-1" ColorIndex="9" Units="1000 м3" SysID="317" PriceLevel="2001" DBComment="Доп. 56, Доп. 68" Quantity="ОКР(337,4 / 1000; 7)" IndexCode="3.1-30-1" PzSync="Yes" Vr2001="10844" WinterK="1.1.5">
+        <Quantity Fx="=337,4" KUnit="1000" Precision="7" Result="0,3374"/>
+        <PriceBase PZ="2534,69" OZ="115,05" EM="1712,64" ZM="153,96" MT="707"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="12,2"/>
+          <Mch Caption="Машины поливомоечные, емкость цистерны до 8 м3" Code="2.1-5-18" Units="маш.час" Quantity="12,2">
+            <PriceBase Value="140,38" ZM="12,62"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="100" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Полив водой"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Разработка грунта бульдозерами мощностью 79 (108) кВт (л.с.) при перемещении грунта до 10 м группа грунтов 1-3  //  планировка основания котлована" Number="7" Code="3.1-11-2" ColorIndex="9" Units="100 м3" SysID="194" PriceLevel="2001" DBComment="Доп. 59, Доп. 68" Quantity="ОКР(964 / 100; 7)" IndexCode="3.1-11-2" DBFlags="TechK" PzSync="Yes" Vr2001="10844">
+        <Quantity Fx="=964" KUnit="100" Precision="7" Result="9,64"/>
+        <PriceBase PZ="116,93" EM="116,93" ZM="11,92"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="0,704">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разработка грунта с перемещением"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Разработка грунта бульдозерами мощностью 79 (108) кВт (л.с.) добавлять на каждые последующие 10 м группа грунтов 1-3 (До 15 м)" Number="8" Code="3.1-11-4" ColorIndex="9" Units="100 м3" SysID="195" PriceLevel="2001" DBComment="Доп. 59, Доп. 68" IndexCode="3.1-11-4" DBFlags="TechK" PzSync="Yes" Vr2001="10844">
+        <Quantity Fx="0" KUnit="100" Precision="7"/>
+        <PriceBase PZ="91,19" EM="91,19" ZM="9,29"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="0,549">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <Koefficients>
+          <K Caption="До 15 м" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="0,5" Level="1"/>
+        </Koefficients>
+        <WorksList>
+          <Work Caption="Разработка грунта с перемещением"/>
+        </WorksList>
+      </Position>
+    </Chapter>
+    <Chapter Caption="Устройство фундаментов" SysID="2">
+      <Position Caption="Устройство щебеночного основания под фундаменты" Number="9" Code="3.8-1-2" ColorIndex="6" Units="1 м3 основания" SysID="327" PriceLevel="2001" DBComment="Доп.22, Доп. 62, Доп. 63, Доп. 64, Доп. 68" Quantity="ОКР(14,5; 7)" IndexCode="3.42-6-1" PzSync="Yes" Vr2001="10848">
+        <Quantity Fx="14,5" Precision="7" Result="14,5"/>
+        <PriceBase PZ="27,68" OZ="8,85" EM="17,77" ZM="3,54" MT="1,06"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="0,85"/>
+          <Mch Caption="Погрузчики фронтальные одноковшовые, грузоподъемность до 3 т" Code="2.1-4-3" Units="маш.час" Quantity="0,07">
+            <PriceBase Value="153,95" ZM="14,54"/>
+          </Mch>
+          <Mch Caption="Компрессоры передвижные с двигателем внутреннего сгорания, давление до 7 ат, производительность до 2,5 м3/мин" Code="2.1-10-4" Units="маш.час" Quantity="0,2">
+            <PriceBase Value="34,48" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Трамбовки пневматические" Code="2.1-30-1" Units="маш.час" Quantity="0,4">
+            <PriceBase Value="0,2"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="0,15" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+          <Mat Caption="Щебень" Code="5711130000" Units="м3" Quantity="1,15" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разравнивание и трамбование основания"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Щебень из естественного камня для строительных работ, марка 800-1200, фракция 40-70 мм" Number="10" Code="1.1-1-1531" ColorIndex="6" Units="м3" SysID="275" PriceLevel="2001" Quantity="ОКР(16,675; 7)" IndexCode="1.1-1-1521" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="1600">
+        <Quantity Fx="=16,675" Precision="7" Result="16,675"/>
+        <PriceBase PZ="168,98" MT="168,98"/>
+      </Position>
+      <Position Caption="Устройство пароизоляции из полиэтиленовой пленки в один слой насухо  //" Number="11" Code="3.11-38-1" ColorIndex="5" Units="100 м2" SysID="226" PriceLevel="2001" DBComment="Доп.11" Quantity="ОКР(144.6 / 100; 7)" IndexCode="3.6-1-1" PzSync="Yes" Vr2001="10613" WinterK="1.15">
+        <Quantity Fx="=144.6" KUnit="100" Precision="7" Result="1,446"/>
+        <PriceBase PZ="39,45" OZ="38,53" EM="0,92" ZM="0,18"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="3,45"/>
+          <Mch Caption="Прочие машины" Code="2.999-0-0" Units="руб." Quantity="0,92">
+            <PriceBase Value="1"/>
+          </Mch>
+          <Mat Caption="Пленка полиэтиленовая" Code="2245190000" Units="м2" Quantity="122,4" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Раскатка рулонов с нарезкой на полотнища"/>
+          <Work Caption="Укладка полиэтиленовой пленки в один слой на плиты перекрытий с напуском полотен"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Материал рулонный кровельный и гидроизоляционный, рубероид типа РКП-350 ОМ, на основе кровельного картона, облегченный, с посыпкой мелкозернистым песком с двух сторон, разрывная сила при растяжении не менее 220 Н, температура гибкости не выше +5°С, теплостойкость не ниже +80°С, водопоглощение не более 2%, для нижних слоев кровельного ковра" Number="12" Code="1.1-1-1267" ColorIndex="4" Units="м2" SysID="279" PriceLevel="2001" Quantity="ОКР(176,9904; 7)" IndexCode="1.3-4-23" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="1,2">
+        <Quantity Fx="176,9904" Precision="7" Result="176,9904"/>
+        <PriceBase PZ="5,76" MT="5,76"/>
+      </Position>
+      <Position Caption="Устройство бетонной подготовки" Number="13" Code="3.6-1-1" ColorIndex="5" Units="100 м3" SysID="277" PriceLevel="2001" DBComment="Доп.47, Доп. 63, Доп. 68" Quantity="ОКР(14,5 / 100; 7)" IndexCode="3.6-1-1" DBFlags="TechK" PzSync="Yes" Vr2001="10606" WinterK="1.7.1">
+        <Quantity Fx="=14,5" KUnit="100" Precision="7" Result="0,145"/>
+        <PriceBase PZ="3255,22" OZ="1379,7" EM="15,65" ZM="1,51" MT="1859,87"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="135"/>
+          <Mch Caption="Вибраторы поверхностные" Code="2.1-6-51" Units="маш.час" Quantity="5,93">
+            <PriceBase Value="0,23"/>
+          </Mch>
+          <Mch Caption="Автомобили грузовые бортовые, грузоподъемность до 8 т" Code="2.1-18-9" Units="маш.час" Quantity="0,12">
+            <PriceBase Value="119,07" ZM="12,62"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="1,75" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+          <Mat Caption="Мешковина" Code="1.1-1-655" Units="м2" Quantity="250" Mass="0,4">
+            <PriceBase Value="7,39"/>
+          </Mat>
+          <Mat Caption="Смеси бетонные, БСГ, тяжелого бетона" Code="5745010000" Units="м3" Quantity="102" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+      </Position>
+      <Position Caption="Смесь бетонная тяжелого бетона БСТ на гранитном щебне, крупность заполнителя от 5 до 20 мм, класс прочности В15 (М200), П4, F75, W6, с С-3 и ЛСТ" Number="14" Code="1.3-1-138" ColorIndex="5" Units="м3" SysID="215" PriceLevel="2001" Quantity="ОКР(14,79; 7)" IndexCode="1.3-1-138" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="2400">
+        <Quantity Fx="=14,79" Precision="7" Result="14,79"/>
+        <PriceBase PZ="736,78" MT="736,78"/>
+      </Position>
+      <Position Caption="Устройство фундаментов ленточных железобетонных при ширине поверху до 1000 мм" Number="15" Code="3.6-1-20" ColorIndex="4" Units="100 м3" SysID="227" PriceLevel="2001" DBComment="Доп.22, Доп.47, Доп.49, Доп. 53, Доп. 56, Доп. 62, Доп. 63, Доп. 64, Доп. 68" Quantity="ОКР(39,77 / 100; 7)" IndexCode="3.6-1-20" DBFlags="TechK" PzSync="Yes" Vr2001="10606" WinterK="1.7.1">
+        <Quantity Fx="=39,77" KUnit="100" Precision="7" Result="0,3977"/>
+        <PriceBase PZ="10657,11" OZ="4179,6" EM="1137,58" ZM="44,83" MT="5339,93"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="360"/>
+          <Mch Caption="Краны на автомобильном ходу, грузоподъемность до 16 т" Code="2.1-3-38" Units="маш.час" Quantity="1,15">
+            <PriceBase Value="179,17" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Погрузчики фронтальные одноковшовые, грузоподъемность до 5 т" Code="2.1-4-102" Units="маш.час" Quantity="0,25">
+            <PriceBase Value="164,94" ZM="14,54"/>
+          </Mch>
+          <Mch Caption="Вибраторы глубинные" Code="2.1-6-52" Units="маш.час" Quantity="18">
+            <PriceBase Value="0,42"/>
+          </Mch>
+          <Mch Caption="Аппараты сварочные постоянного тока (выпрямители) для ручной дуговой сварки, сварочный ток до 500 А" Code="2.1-13-14" Units="маш.час" Quantity="104">
+            <PriceBase Value="7,11"/>
+          </Mch>
+          <Mch Caption="Автомобили грузовые бортовые, грузоподъемность до 5 т" Code="2.1-18-7" Units="маш.час" Quantity="1,72">
+            <PriceBase Value="83,1" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Пилы электрические цепные, мощность до 2 кВт" Code="2.1-30-116" Units="маш.час" Quantity="0,81">
+            <PriceBase Value="0,45"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="0,283" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+          <Mat Caption="Гвозди строительные" Code="1.1-1-132" Units="т" Quantity="0,013" Mass="1120">
+            <PriceBase Value="6521,42"/>
+          </Mat>
+          <Mat Caption="Пиломатериал (доска) обрезной хвойных пород естественной влажности, сорт III, толщина 25 мм, ширина от 100 до 200 мм" Code="1.1-1-226" Units="м3" Quantity="0,14" Mass="606">
+            <PriceBase Value="1828,56"/>
+          </Mat>
+          <Mat Caption="Пиломатериал (доска) обрезной хвойных пород естественной влажности, сорт III, толщина 50 мм, ширина от 100 до 200 мм" Code="1.1-1-227" Units="м3" Quantity="0,47" Mass="600">
+            <PriceBase Value="1828,56"/>
+          </Mat>
+          <Mat Caption="Известь негашеная комовая" Code="1.1-1-256" Units="т" Quantity="0,025" Mass="1000">
+            <PriceBase Value="1260,72"/>
+          </Mat>
+          <Mat Caption="Проволока (катанка) стальная общего назначения, из стали углеродистой обыкновенного качества, кипящей и полуспокойной, диаметр от 5,5 до 6,5 мм" Code="1.1-1-338" Units="т" Quantity="0,0303" Mass="1000">
+            <PriceBase Value="4349,9"/>
+          </Mat>
+          <Mat Caption="Мешковина" Code="1.1-1-655" Units="м2" Quantity="88,2" Mass="0,4">
+            <PriceBase Value="7,39"/>
+          </Mat>
+          <Mat Caption="Электроды, типа Э-42, Э-46, Э-50, диаметр от 4 до 6 мм" Code="1.1-1-1566" Units="т" Quantity="0,13" Mass="1140">
+            <PriceBase Value="7191,81"/>
+          </Mat>
+          <Mat Caption="Щит деревянный для фундаментов, колонн, балок, перекрытий, стен, перегородок и других конструкций из досок, толщина 25 мм" Code="1.9-11-3" Units="м2" Quantity="39,2" Mass="17">
+            <PriceBase Value="60,91"/>
+          </Mat>
+          <Mat Caption="Арматура" Code="0930110000" Units="т" Quantity="6,6" Options="NotCount" Attribs="Deleted"/>
+          <Mat Caption="Смеси бетонные, БСГ, тяжелого бетона" Code="5745010000" Units="м3" Quantity="101,5" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+      </Position>
+      <Position Caption="Смеси бетонные, БСГ, тяжелого бетона на гранитном щебне, фракция 5-20, класс прочности В25 (М350); П4, F300, W8" Number="16" Code="1.3-1-142" ColorIndex="4" Units="м3" SysID="219" PriceLevel="2001" Quantity="ОКР(40,36655; 7)" IndexCode="1.3-1-142" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="2400">
+        <Quantity Fx="=40,36655" Precision="7" Result="40,36655"/>
+        <PriceBase PZ="811,75" MT="811,75"/>
+      </Position>
+      <Position Caption="Арматурные заготовки (стержни, хомуты и т.п.), не собранные в каркасы или сетки, арматурная сталь периодического профиля, класс А-III, диаметр 12-14 мм" Number="17" Code="1.3-4-22" ColorIndex="4" Units="т" SysID="223" PriceLevel="2001" Quantity="ОКР(3,4*1,01; 7)" IndexCode="1.3-4-22" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="1000">
+        <Quantity Fx="=3,4*1,01" Precision="7" Result="3,434"/>
+        <PriceBase PZ="5752,41" MT="5752,41"/>
+      </Position>
+      <Position Caption="Арматурные заготовки (стержни, хомуты и т.п.), не собранные в каркасы или сетки, углеродистая сталь общего назначения и арматурная сталь гладкая, класс А-I, диаметр 10 мм" Number="18" Code="1.3-4-3" ColorIndex="4" Units="т" SysID="225" PriceLevel="2001" Quantity="ОКР(11,7*1,01; 7)" IndexCode="1.3-4-3" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="1000">
+        <Quantity Fx="=11,7*1,01" Precision="7" Result="11,817"/>
+        <PriceBase PZ="5681,92" MT="5681,92"/>
+      </Position>
+      <Position Caption="Устройство швов деформационных типа АКВАСТОП, марка ДШН-50 в бетонных и железобетонных конструкциях" Number="19" Code="3.6-100-3" ColorIndex="8" Units="100 м" SysID="203" PriceLevel="2001" DBComment="Доп.46, Доп. 64, Доп. 68" Quantity="ОКР(20 / 100; 7)" IndexCode="3.6-100-3" PzSync="Yes" Vr2001="10606" WinterK="1.7.2">
+        <Quantity Fx="=20" KUnit="100" Precision="7" Result="0,2"/>
+        <PriceBase PZ="4252" OZ="2885,29" EM="119,79" ZM="2,52" MT="1246,92"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="242,14"/>
+          <Mch Caption="Автомобили грузопассажирские, грузоподъемность до 2 т" Code="2.1-18-24" Units="маш.час" Quantity="0,2">
+            <PriceBase Value="43,95" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Перфораторы, мощность до 1,2 кВт" Code="2.1-30-103" Units="маш.час" Quantity="100">
+            <PriceBase Value="1,11"/>
+          </Mch>
+          <Mat Caption="Дюбель-гвозди с насаженными шайбами, оцинкованные, диаметр 4,5 мм, длина от 30 до 60 мм" Code="1.1-1-1621" Units="т" Quantity="0,0343" Mass="1120">
+            <PriceBase Value="19724,14"/>
+          </Mat>
+          <Mat Caption="Смесь бетонная мелкозернистого бетона БСМ, класс прочности В15 (М200)" Code="1.3-1-15" Units="м3" Quantity="1,02" Mass="2200">
+            <PriceBase Value="559,2"/>
+          </Mat>
+          <Mat Caption="Конструкции швов деформационных" Code="5264222000" Units="м" Options="Project NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Сборка конструкции деформационного шва"/>
+          <Work Caption="Устройство выравнивающей подготовки из пескобетона"/>
+          <Work Caption="Установка конструкции деформационного шва с выверкой по горизонтали"/>
+          <Work Caption="Сверление отверстий в бетоне перфоратором"/>
+          <Work Caption="Стыковка резиновых профилей"/>
+          <Work Caption="Крепление конструкций деформационного шва дюбель-гвоздями"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Фанера бакелизированная, толщина 10 мм" Number="20" Code="1.1-1-3685" ColorIndex="8" Units="м3" SysID="183" PriceLevel="2001" Quantity="ОКР(0,08; 7)" IndexCode="1.1-1-3685" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1100">
+        <Quantity Fx="=0,08" Precision="7" Result="0,08"/>
+        <PriceBase PZ="22222,72" MT="22222,72"/>
+      </Position>
+      <Position Caption="Гидроизоляция стен, фундаментов боковая обмазочная битумная в 2 слоя по выравненной поверхности бутовой кладки, кирпичу, бетону" Number="21" Code="3.8-2-7" ColorIndex="2" Units="100 м2" SysID="228" PriceLevel="2001" Quantity="ОКР(204,9 / 100; 7)" IndexCode="3.8-2-7" PzSync="Yes" Vr2001="10848" WinterK="1.9">
+        <Quantity Fx="=204,9" KUnit="100" Precision="7" Result="2,049"/>
+        <PriceBase PZ="586,12" OZ="487,11" EM="71,29" ZM="13,35" MT="27,72"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="39"/>
+          <Mch Caption="Прочие машины" Code="2.999-0-0" Units="руб." Quantity="71,29">
+            <PriceBase Value="1"/>
+          </Mch>
+          <Mat Caption="Прочие материалы" Code="1.999-0-0" Units="руб." Quantity="27,72">
+            <PriceBase Value="1"/>
+          </Mat>
+          <Mat Caption="Мастика клеящая морозостойкая битумно-масляная МБ-50" Code="5775340000" Units="т" Quantity="0,24" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Огрунтовка поверхности"/>
+          <Work Caption="Нанесение слоев битумной мастики с разогреванием ее"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Мастика герметизирующая нетвердеющая, строительная, изоляционная, марка МБР-90, битумно-резиновая " Number="22" Code="1.1-1-606" ColorIndex="2" Units="т" SysID="229" PriceLevel="2001" Quantity="ОКР(0,49176; 7)" IndexCode="1.1-1-606" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1010">
+        <Quantity Fx="=0,49176" Precision="7" Result="0,49176"/>
+        <PriceBase PZ="5814" MT="5814"/>
+      </Position>
+    </Chapter>
+    <Chapter Caption="Устройство армогрунтовых конструкций" SysID="6">
+      <Position Caption="Устройство песчаного основания под фундаменты" Number="23" Code="3.8-1-1" ColorIndex="3" Units="1 м3 основания" SysID="283" PriceLevel="2001" DBComment="Доп.22, Доп. 62, Доп. 63, Доп. 64, Доп. 68" Quantity="ОКР(36,2*0,02; 7)" IndexCode="3.27-12-1" PzSync="Yes" Vr2001="10848" WinterK="1.6">
+        <Quantity Fx="=36,2*0,02" Precision="7" Result="0,724"/>
+        <PriceBase PZ="26,26" OZ="8,12" EM="17,08" ZM="3,29" MT="1,06"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="0,78"/>
+          <Mch Caption="Погрузчики фронтальные одноковшовые, грузоподъемность до 3 т" Code="2.1-4-3" Units="маш.час" Quantity="0,07">
+            <PriceBase Value="153,95" ZM="14,54"/>
+          </Mch>
+          <Mch Caption="Компрессоры передвижные с двигателем внутреннего сгорания, давление до 7 ат, производительность до 2,5 м3/мин" Code="2.1-10-4" Units="маш.час" Quantity="0,18">
+            <PriceBase Value="34,48" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Трамбовки пневматические" Code="2.1-30-1" Units="маш.час" Quantity="0,36">
+            <PriceBase Value="0,2"/>
+          </Mch>
+          <Mch Caption="Прочие машины" Code="2.999-0-0" Units="руб." Quantity="0,02">
+            <PriceBase Value="1"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="0,15" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+          <Mat Caption="Песок строительный" Code="5711400000" Units="м3" Quantity="1,1" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разравнивание и трамбование основания"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Смесь сухая, цементная, гидроизоляционная, поверхностная, с минеральными добавками, паропроницаемая, неэластичная, химически- и сульфатостойкая, для наружных и внутренних работ, механизированного и ручного нанесения, прочность на сжатие 30 МПа, прочность на изгиб 6 МПа, для внутренней гидроизоляция подвальных помещений, резервуаров, конструкций, ремонта гидроизоляции цоколя, разрешен контакт с питьевой водой" Number="24" Code="1.3-2-101" ColorIndex="3" Units="кг" SysID="326" PriceLevel="2001" Quantity="ОКР(1448; 7)" IndexCode="1.1-1-1695" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1,05">
+        <Quantity Fx="=1448" Precision="7" Result="1448"/>
+        <PriceBase PZ="62,26" MT="62,26"/>
+      </Position>
+      <Position Caption="Установка стеновых панелей площадью до 8 м2 при наибольшей массе монтажных элементов до 5 т" Number="25" Code="3.7-3-8" ColorIndex="9" Units="100 сборных конструкций" SysID="324" PriceLevel="2001" DBComment="Доп.22, Доп.47, Доп. 56, Доп. 64, Доп. 68, Доп. 69" Quantity="ОКР(242 / 100; 7)" IndexCode="3.1-30-1" PzSync="Yes" Vr2001="10607" WinterK="1.8">
+        <Quantity Fx="=242" KUnit="100" Precision="7" Result="2,42"/>
+        <PriceBase PZ="7892,84" OZ="5212,06" EM="1943,25" ZM="256,35" MT="737,53"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="413"/>
+          <Mch Caption="Пневмонагнетатели, производительность до 5 м3/ч, мощность до 7,5 кВт" Code="2.1-6-43" Units="маш.час" Quantity="23,1">
+            <PriceBase Value="5,7"/>
+          </Mch>
+          <Mch Caption="Инверторы для ручной дуговой сварки, сварочный ток до 400 А" Code="2.1-13-10" Units="маш.час" Quantity="8,46">
+            <PriceBase Value="3,18"/>
+          </Mch>
+          <Mch Caption="Полуприцепы-тяжеловозы, грузоподъемность до 40 т" Code="2.1-18-2" Units="маш.час" Quantity="14,21">
+            <PriceBase Value="23,39"/>
+          </Mch>
+          <Mch Caption="Автомобили грузовые бортовые, грузоподъемность до 5 т" Code="2.1-18-7" Units="маш.час" Quantity="0,18">
+            <PriceBase Value="83,1" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Тягачи седельные, грузоподъемность до 15 т" Code="2.1-18-21" Units="маш.час" Quantity="14,21">
+            <PriceBase Value="101,15" ZM="17,88"/>
+          </Mch>
+          <Mat Caption="Пиломатериал (доска) обрезной хвойных пород естественной влажности, сорт IV, толщина 50 мм, ширина от 100 до 200 мм" Code="1.1-1-232" Units="м3" Quantity="0,096" Mass="606">
+            <PriceBase Value="1828,56"/>
+          </Mat>
+          <Mat Caption="Проволока (катанка) стальная общего назначения, из стали углеродистой обыкновенного качества, кипящей и полуспокойной, диаметр от 5,5 до 6,5 мм" Code="1.1-1-338" Units="т" Quantity="0,0045" Mass="1000">
+            <PriceBase Value="4349,9"/>
+          </Mat>
+          <Mat Caption="Солидол жировой" Code="1.1-1-1051" Units="т" Quantity="0,0023" Mass="1250">
+            <PriceBase Value="18504,15"/>
+          </Mat>
+          <Mat Caption="Электроды, типа Э-42, Э-46, Э-50, диаметр от 4 до 6 мм" Code="1.1-1-1566" Units="т" Quantity="0,03" Mass="1140">
+            <PriceBase Value="7191,81"/>
+          </Mat>
+          <Mat Caption="Арматурные заготовки (стержни, хомуты и т.п.), не собранные в каркасы или сетки, углеродистая сталь общего назначения и арматурная сталь гладкая, класс А-I, диаметр от 12 до 14 мм" Code="1.3-4-4" Units="т" Quantity="0,05" Mass="1000">
+            <PriceBase Value="5681,92"/>
+          </Mat>
+          <Mat Caption="Монтажные связи, соединяемые на сварке" Code="5291000000" Units="т" Options="Project NotCount" Attribs="Deleted"/>
+          <Mat Caption="Смеси бетонные, БСГ, песчаного бетона на обогащенном песке" Code="5745090000" Units="м3" Quantity="21,9" Options="NotCount" Attribs="Deleted"/>
+          <Mat Caption="Сборные железобетонные конструкции стеновых панелей" Code="5831000000" Units="шт." Quantity="100" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Установка монтажных изделий"/>
+          <Work Caption="Сварка закладных и монтажных изделий"/>
+          <Work Caption="Устройство опалубки"/>
+          <Work Caption="Замоноличивание швов и сопряжений бетоном"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Облицовочные панели Макрес в комплекте с монтажными аксессуарами Цена: 9836,96=(85 543/8,87)+2% Заг.скл." Number="26" Code="КП Макрес" ColorIndex="8" Units="м3" SysID="179" PriceLevel="2001" Quantity="ОКР(76,1; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=76,1" Precision="7" Result="76,1"/>
+        <PriceBase PZ="9836,96" MT="9836,96"/>
+      </Position>
+      <Position Caption="EPDM прокладки Цена: 69=(600/8,87)+2% Заг.скл." Number="27" Code="КП Макрес" ColorIndex="8" Units="шт" SysID="230" PriceLevel="2001" Quantity="ОКР(968; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=968" Precision="7" Result="968"/>
+        <PriceBase PZ="69" MT="69"/>
+      </Position>
+      <Position Caption="Устройство прослойки из нетканого синтетического материала (НСМ) в земляном полотне сплошной" Number="28" Code="3.27-69-1" ColorIndex="3" Units="1000 м2" SysID="231" PriceLevel="2001" DBComment="Доп. 55, Доп. 59, Доп. 68" Quantity="ОКР(373,6 / 1000; 7)" IndexCode="3.27-69-1" DBFlags="TechK" PzSync="Yes" Vr2001="10622" WinterK="1.23.1">
+        <Quantity Fx="=373,6" KUnit="1000" Precision="7" Result="0,3736"/>
+        <PriceBase PZ="950,69" OZ="285,31" EM="665,38" ZM="59,93"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="27,7"/>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="2,52">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Катки дорожные самоходные на пневмоколесном ходу, масса до 30 т" Code="2.1-5-10" Units="маш.час" Quantity="1,02">
+            <PriceBase Value="241,97" ZM="16,93"/>
+          </Mch>
+          <Mat Caption="Полотно иглопробивное для дорожного строительства &quot;Дорнит-2&quot;" Code="8191010000" Units="10 м2" Options="Project NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Планировка земляного полотна"/>
+          <Work Caption="Планировка откосов"/>
+          <Work Caption="Раскладка рулонов НСМ"/>
+          <Work Caption="Закрепление полотен НСМ анкерами с последующей разборкой крепления"/>
+          <Work Caption="Склейка полотен НСМ"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Полосы шириной 400 мм из полипропиленового геотекстиля 250 г/м2. Цена: 19,55=(170/8,87)+2% Заг.скл." Number="29" Code="КП Макрес" ColorIndex="8" Units="м2" SysID="232" PriceLevel="2001" Quantity="ОКР(373,6; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="373,6" Precision="7" Result="373,6"/>
+        <PriceBase PZ="19,55" MT="19,55"/>
+      </Position>
+      <Position Caption="Гидроизоляция стен, фундаментов боковая обмазочная битумная в 2 слоя по выравненной поверхности бутовой кладки, кирпичу, бетону" Number="30" Code="3.8-2-7" ColorIndex="2" Units="100 м2" SysID="288" PriceLevel="2001" Quantity="ОКР(543 / 100; 7)" IndexCode="3.8-2-7" PzSync="Yes" Vr2001="10848" WinterK="1.9">
+        <Quantity Fx="=543" KUnit="100" Precision="7" Result="5,43"/>
+        <PriceBase PZ="586,12" OZ="487,11" EM="71,29" ZM="13,35" MT="27,72"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="39"/>
+          <Mch Caption="Прочие машины" Code="2.999-0-0" Units="руб." Quantity="71,29">
+            <PriceBase Value="1"/>
+          </Mch>
+          <Mat Caption="Прочие материалы" Code="1.999-0-0" Units="руб." Quantity="27,72">
+            <PriceBase Value="1"/>
+          </Mat>
+          <Mat Caption="Мастика клеящая морозостойкая битумно-масляная МБ-50" Code="5775340000" Units="т" Quantity="0,24" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Огрунтовка поверхности"/>
+          <Work Caption="Нанесение слоев битумной мастики с разогреванием ее"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Мастика герметизирующая нетвердеющая, строительная, изоляционная, марка МБР-90, битумно-резиновая " Number="31" Code="1.1-1-606" ColorIndex="2" Units="т" SysID="289" PriceLevel="2001" Quantity="ОКР(1,3032; 7)" IndexCode="1.1-1-606" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1010">
+        <Quantity Fx="=1,3032" Precision="7" Result="1,3032"/>
+        <PriceBase PZ="5814" MT="5814"/>
+      </Position>
+      <Position Caption="Устройство прослойки из нетканого синтетического материала (НСМ) в земляном полотне сплошной" Number="32" Code="3.27-69-1" ColorIndex="2" Units="1000 м2" SysID="290" PriceLevel="2001" DBComment="Доп. 55, Доп. 59, Доп. 68" Quantity="ОКР(612 / 1000; 7)" IndexCode="3.27-69-1" DBFlags="TechK" PzSync="Yes" Vr2001="10622" WinterK="1.23.1">
+        <Quantity Fx="=612" KUnit="1000" Precision="7" Result="0,612"/>
+        <PriceBase PZ="950,69" OZ="285,31" EM="665,38" ZM="59,93"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="27,7"/>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="2,52">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Катки дорожные самоходные на пневмоколесном ходу, масса до 30 т" Code="2.1-5-10" Units="маш.час" Quantity="1,02">
+            <PriceBase Value="241,97" ZM="16,93"/>
+          </Mch>
+          <Mat Caption="Полотно иглопробивное для дорожного строительства &quot;Дорнит-2&quot;" Code="8191010000" Units="10 м2" Options="Project NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Планировка земляного полотна"/>
+          <Work Caption="Планировка откосов"/>
+          <Work Caption="Раскладка рулонов НСМ"/>
+          <Work Caption="Закрепление полотен НСМ анкерами с последующей разборкой крепления"/>
+          <Work Caption="Склейка полотен НСМ"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Геокомпозитные ленты Паравеб 2Е 30, длиной 3,0 м. Цена: 63,25=(552/8,87)+2% Заг.скл." Number="33" Code="КП Макрес" ColorIndex="8" Units="м.п." SysID="291" PriceLevel="2001" Quantity="ОКР(1440; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=1440" Precision="7" Result="1440"/>
+        <PriceBase PZ="63,25" MT="63,25"/>
+      </Position>
+      <Position Caption="Геокомпозитные ленты Паравеб 2Е 40, длиной 5,5 м. Цена: 63,25=(552/8,87)+2% Заг.скл." Number="34" Code="КП Макрес" ColorIndex="8" Units="м.п." SysID="292" PriceLevel="2001" Quantity="ОКР(5346; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=5346" Precision="7" Result="5346"/>
+        <PriceBase PZ="63,25" MT="63,25"/>
+      </Position>
+      <Position Caption="S образные элементы. Цена: 37,95=(330/8,87)+2% Заг.скл." Number="35" Code="КП Макрес" ColorIndex="8" Units="шт" SysID="295" PriceLevel="2001" Quantity="ОКР(313; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=313" Precision="7" Result="313"/>
+        <PriceBase PZ="37,95" MT="37,95"/>
+      </Position>
+      <Position Caption="Каркасы и сетки арматурные плоские, собранные и сваренные (связанные) в арматурные изделия, класс А-I, диаметр 20-22 мм" Number="36" Code="1.3-4-46" ColorIndex="2" Units="т" SysID="296" PriceLevel="2001" Quantity="ОКР(0,898; 7)" IndexCode="1.3-4-46" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1000">
+        <Quantity Fx="=0,898" Precision="7" Result="0,898"/>
+        <PriceBase PZ="6340,75" MT="6340,75"/>
+      </Position>
+      <Position Caption="Разработка грунта бульдозерами мощностью 96 (130) кВт (л.с.) при перемещении грунта до 10 м группа грунтов 1-3" Number="37" Code="3.1-12-1" ColorIndex="9" Units="100 м3" SysID="259" PriceLevel="2001" DBComment="Доп. 59, Доп. 68" Quantity="ОКР(4922 / 100; 7)" IndexCode="3.1-11-2" DBFlags="TechK" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=4922" KUnit="100" Precision="7" Result="49,22"/>
+        <PriceBase PZ="232,33" EM="232,33" ZM="18,45"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 96 кВт (130 л.с.)" Code="2.1-1-45" Units="маш.час" Quantity="1,09">
+            <PriceBase Value="213,15" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разработка грунта с перемещением"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Разработка грунта бульдозерами мощностью 96 (130) кВт (л.с.) добавлять на каждые последующие 10 м группа грунтов 1-3" Number="38" Code="3.1-12-2" ColorIndex="9" Units="100 м3 грунта" SysID="302" PriceLevel="2001" DBComment="Доп. 59, Доп. 68" Quantity="ОКР(4922 / 100; 7)" IndexCode="3.1-11-2" DBFlags="TechK" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=4922" KUnit="100" Precision="7" Result="49,22"/>
+        <PriceBase PZ="191,41" EM="191,41" ZM="15,2"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 96 кВт (130 л.с.)" Code="2.1-1-45" Units="маш.час" Quantity="0,898">
+            <PriceBase Value="213,15" ZM="16,93"/>
+          </Mch>
+        </Resources>
+        <Koefficients>
+          <K Caption="перемещение до 50 м" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="4" Level="1"/>
+        </Koefficients>
+        <WorksList>
+          <Work Caption="Разработка грунта с перемещением"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Навалочные грузы 1 класса, перевозимые автомобилями самосвалами: земля растительная, почвогрунт   // перевозка  песка М=5414*1,6 тн/м3" Number="39" Code="1.0-1-12" ColorIndex="9" Units="т" SysID="261" PriceLevel="2001" Quantity="ОКР(5414*1,6; 7)" IndexCode="3.1-11-2" DBFlags="Comment" PzSync="Yes" Vr2001="10844" Mass="1000">
+        <Quantity Fx="=5414*1,6" Precision="7" Result="8662,4"/>
+        <PriceBase PZ="36,17" MT="36,17"/>
+      </Position>
+      <Position Caption="Песок для строительных работ, рядовой (карьерный)" Number="40" Code="1.1-1-766" ColorIndex="3" Units="м3" SysID="304" PriceLevel="2001" Quantity="ОКР(5414; 7)" IndexCode="1.1-1-766" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1600">
+        <Quantity Fx="=5414" Precision="7" Result="5414"/>
+        <PriceBase PZ="104,99" MT="104,99"/>
+      </Position>
+      <Position Caption="Уплотнение грунта самоходными вибрационными катками 2,2 т на первый проход по одному следу при толщине слоя, см 25" Number="41" Code="3.1-28-1" ColorIndex="9" Units="100 м3" SysID="265" PriceLevel="2001" DBComment="Доп. 55, Доп. 59, Доп. 68" Quantity="ОКР(3937 / 100; 7)" IndexCode="3.1-11-2" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=3937" KUnit="100" Precision="7" Result="39,37"/>
+        <PriceBase PZ="203,08" EM="203,08" ZM="21,99"/>
+        <Resources>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="1,15">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Катки самоходные вибрационные, масса до 2 т" Code="2.1-5-1" Units="маш.час" Quantity="0,2">
+            <PriceBase Value="60,24" ZM="12,62"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Разравнивание грунта слоями перед уплотнением"/>
+          <Work Caption="Уплотнение грунта"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Уплотнение грунта самоходными вибрационными катками 12 т на каждый последующий проход по одному следу при толщине слоя, см 25  // добавл до 12 проходов по одному следу" Number="42" Code="3.1-28-7" ColorIndex="9" Units="100 м3 уплотненного грунта" SysID="310" PriceLevel="2001" DBComment="Доп. 55, Доп. 68" Quantity="ОКР(3937 / 100; 7)" IndexCode="3.1-30-1" PzSync="Yes" Vr2001="10844" WinterK="1.1.3">
+        <Quantity Fx="=3937" KUnit="100" Precision="7" Result="39,37"/>
+        <PriceBase PZ="12,05" EM="12,05" ZM="2,52"/>
+        <Resources>
+          <Mch Caption="Катки самоходные вибрационные, масса до 2 т" Code="2.1-5-1" Units="маш.час" Quantity="0,2">
+            <PriceBase Value="60,24" ZM="12,62"/>
+          </Mch>
+        </Resources>
+        <Koefficients>
+          <K Caption="количесство проходов по одному следу 12" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="11" Level="1"/>
+        </Koefficients>
+        <WorksList>
+          <Work Caption="Разравнивание грунта слоями перед уплотнением"/>
+          <Work Caption="Уплотнение грунта"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Уплотнение грунта пневматическими трамбовками группа грунтов 1,2" Number="43" Code="3.1-29-1" Units="100 м3" SysID="311" PriceLevel="2001" DBComment="Доп. 63, Доп. 64, Доп. 68, Доп. 69" Quantity="985 / 100" IndexCode="3.1-29-1" PzSync="Yes" Vr2001="10844" WinterK="1.1.5">
+        <Quantity Fx="=985" KUnit="100" Result="9,85"/>
+        <PriceBase PZ="558,07" OZ="120,74" EM="437,33" ZM="132,51"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="10,8"/>
+          <Mch Caption="Компрессоры передвижные с двигателем внутреннего сгорания, давление до 7 ат, производительность до 5 м3/мин" Code="2.1-10-1" Units="маш.час" Quantity="10,5">
+            <PriceBase Value="41,45" ZM="12,62"/>
+          </Mch>
+          <Mch Caption="Трамбовки пневматические" Code="2.1-30-1" Units="маш.час" Quantity="10,5">
+            <PriceBase Value="0,2"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Уплотнение грунта"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Полив водой уплотняемого грунта насыпей" Number="44" Code="3.1-30-1" ColorIndex="9" Units="1000 м3" SysID="268" PriceLevel="2001" DBComment="Доп. 56, Доп. 68" Quantity="ОКР(3987 / 1000; 7)" IndexCode="3.1-30-1" PzSync="Yes" Vr2001="10844" WinterK="1.1.5">
+        <Quantity Fx="=3987" KUnit="1000" Precision="7" Result="3,987"/>
+        <PriceBase PZ="2534,69" OZ="115,05" EM="1712,64" ZM="153,96" MT="707"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="12,2"/>
+          <Mch Caption="Машины поливомоечные, емкость цистерны до 8 м3" Code="2.1-5-18" Units="маш.час" Quantity="12,2">
+            <PriceBase Value="140,38" ZM="12,62"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="100" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Полив водой"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Планировка откосов и полотна механизированным способом насыпей группа грунтов 1-3  //  планировка верха  земполотна" Number="45" Code="3.1-35-5" ColorIndex="9" Units="1000 м2" SysID="312" PriceLevel="2001" DBComment="Доп. 59, Доп. 61, Доп. 63, Доп. 68" Quantity="ОКР(3506 / 1000; 7)" IndexCode="3.1-35-5" DBFlags="TechK" PzSync="Yes" Vr2001="10844" WinterK="1.1.2">
+        <Quantity Fx="=3506" KUnit="1000" Precision="7" Result="3,506"/>
+        <PriceBase PZ="890,19" OZ="310,55" EM="579,64" ZM="47,52"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="29,52"/>
+          <Mch Caption="Экскаваторы на гусеничном ходу гидравлические, объем ковша до 0,65 м3" Code="2.1-1-5" Units="маш.час" Quantity="0,7">
+            <PriceBase Value="245,8" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Бульдозеры гусеничные, мощность до 79 кВт (108 л.с.)" Code="2.1-1-44" Units="маш.час" Quantity="0,3825">
+            <PriceBase Value="166,1" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Автогрейдеры, мощность до 147 кВт (200 л.с.)" Code="2.1-5-48" Units="маш.час" Quantity="1,567">
+            <PriceBase Value="219,56" ZM="18,62"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Планировка поверхности со срезкой неровностей"/>
+          <Work Caption="Засыпка углублений, уплотнение грунта, зачистка поверхности и проверка шаблоном"/>
+          <Work Caption="Планировка основной площадки полотна"/>
+          <Work Caption="Устройство сливной призмы и зачистка неровностей"/>
+          <Work Caption="Планировка откосов срезкой"/>
+          <Work Caption="Разравнивание грунта и планировка естественной бермы"/>
+        </WorksList>
+      </Position>
+    </Chapter>
+    <Chapter Caption="Устройство карнизного блока" SysID="8">
+      <Position Caption="Устройство облицовки массивной" Number="46" Code="3.30-12-1" ColorIndex="9" Units="100 м2" SysID="247" PriceLevel="2001" DBComment="Доп.49, Доп. 53, Доп. 68" Quantity="ОКР(182,25 / 100; 7)" IndexCode="3.30-12-1" DBFlags="TechK" PzSync="Yes" Vr2001="10625" WinterK="1.1.2">
+        <Quantity Fx="=182,25" KUnit="100" Precision="7" Result="1,8225"/>
+        <PriceBase PZ="32027,38" OZ="8439,36" EM="19350,36" ZM="1828,44" MT="4237,66"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="596"/>
+          <Mch Caption="Краны на автомобильном ходу, грузоподъемность до 16 т" Code="2.1-3-38" Units="маш.час" Quantity="108">
+            <PriceBase Value="179,17" ZM="16,93"/>
+          </Mch>
+          <Mat Caption="Пиломатериал (доска) обрезной хвойных пород естественной влажности, сорт III, толщина 50 мм, ширина от 100 до 200 мм" Code="1.1-1-227" Units="м3" Quantity="1,33" Mass="600">
+            <PriceBase Value="1828,56"/>
+          </Mat>
+          <Mat Caption="Раствор цементный, марка М150" Code="1.3-2-6" Units="м3" Quantity="3,77" Mass="1800">
+            <PriceBase Value="478,96"/>
+          </Mat>
+          <Mat Caption="Камень облицовочный криволинейный" Code="5711920000" Units="м2" Quantity="27" Options="NotCount" Attribs="Deleted"/>
+          <Mat Caption="Камень облицовочный прямолинейный" Code="5711920000" Units="м2" Quantity="73" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Подача и установка камней"/>
+          <Work Caption="Частичная подтеска постелей и боковых граней"/>
+          <Work Caption="Заливка швов и пазух раствором"/>
+          <Work Caption="Расшивка швов"/>
+          <Work Caption="Очистка поверхности облицовки"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Устройство бетонной подготовки" Number="47" Code="3.6-1-1" ColorIndex="5" Units="100 м3" SysID="333" PriceLevel="2001" DBComment="Доп.47, Доп. 63, Доп. 68" Quantity="ОКР(1,3 / 100; 7)" IndexCode="3.6-1-1" DBFlags="TechK" PzSync="Yes" Vr2001="10606">
+        <Quantity Fx="=1,3" KUnit="100" Precision="7" Result="0,013"/>
+        <PriceBase PZ="3255,22" OZ="1379,7" EM="15,65" ZM="1,51" MT="1859,87"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="135"/>
+          <Mch Caption="Вибраторы поверхностные" Code="2.1-6-51" Units="маш.час" Quantity="5,93">
+            <PriceBase Value="0,23"/>
+          </Mch>
+          <Mch Caption="Автомобили грузовые бортовые, грузоподъемность до 8 т" Code="2.1-18-9" Units="маш.час" Quantity="0,12">
+            <PriceBase Value="119,07" ZM="12,62"/>
+          </Mch>
+          <Mat Caption="Вода" Code="1.1-1-118" Units="м3" Quantity="1,75" Mass="1000">
+            <PriceBase Value="7,07"/>
+          </Mat>
+          <Mat Caption="Мешковина" Code="1.1-1-655" Units="м2" Quantity="250" Mass="0,4">
+            <PriceBase Value="7,39"/>
+          </Mat>
+          <Mat Caption="Смеси бетонные, БСГ, тяжелого бетона" Code="5745010000" Units="м3" Quantity="102" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+      </Position>
+      <Position Caption="Карнизные панели. Цена: 1459,28=(12690/8,87)+2% Заг.скл." Number="48" Code="КП Макрес" ColorIndex="8" Units="шт" SysID="248" PriceLevel="2001" Quantity="ОКР(81; 7)" IndexCode="1" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="0,7">
+        <Quantity Fx="=81" Precision="7" Result="81"/>
+        <PriceBase PZ="1459,28" MT="1459,28"/>
+      </Position>
+      <Position Caption="Крепление откосов плитами, омоноличенными по контуру массой до 1 т толщиной 10 см" Number="49" Code="3.42-10-1" ColorIndex="9" Units="100 м3" SysID="249" PriceLevel="2001" DBComment="Доп.22, Доп.47, Доп.49, Доп. 53, Доп. 56, Доп. 68" Quantity="ОКР(14,63 / 100; 7)" IndexCode="3.42-10-1" PzSync="Yes" Vr2001="10631" WinterK="1.25.1">
+        <Quantity Fx="=14,63" KUnit="100" Precision="7" Result="0,1463"/>
+        <PriceBase PZ="52557,57" OZ="12724,32" EM="22919,59" ZM="357,68" MT="16913,66"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1" Units="чел.-ч" Quantity="1082"/>
+          <Mch Caption="Краны на автомобильном ходу, грузоподъемность до 16 т" Code="2.1-3-38" Units="маш.час" Quantity="10,46">
+            <PriceBase Value="179,17" ZM="16,93"/>
+          </Mch>
+          <Mch Caption="Агрегаты сварочные однопостовые прицепные с двигателем внутреннего сгорания, сварочный ток до 400 А" Code="2.1-13-8" Units="маш.час" Quantity="404,57">
+            <PriceBase Value="49,08"/>
+          </Mch>
+          <Mch Caption="Автомобили грузовые бортовые, грузоподъемность до 5 т" Code="2.1-18-7" Units="маш.час" Quantity="14,31">
+            <PriceBase Value="83,1" ZM="12,62"/>
+          </Mch>
+          <Mat Caption="Битум нефтяной строительный, марка БН, БНК" Code="1.1-1-52" Units="т" Quantity="3,67" Mass="1020">
+            <PriceBase Value="3389,74"/>
+          </Mat>
+          <Mat Caption="Электроды, типа Э-42, Э-46, Э-50, диаметр от 4 до 6 мм" Code="1.1-1-1566" Units="т" Quantity="0,622" Mass="1140">
+            <PriceBase Value="7191,81"/>
+          </Mat>
+          <Mat Caption="Прочие конструкции из толстолистовой стали до 0,5 т" Code="5290900000" Units="т" Quantity="4,24" Options="NotCount" Attribs="Deleted"/>
+          <Mat Caption="Сборные железобетонные конструкции инженерных сооружений" Code="5858010000" Units="м3" Quantity="100" Options="NotCount" Attribs="Deleted"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Укладка плит с выравниванием основания"/>
+          <Work Caption="Приварка соединительных изделий к закладным частям плит"/>
+          <Work Caption="Заделка швов битумно-резиновой мастикой"/>
+        </WorksList>
+      </Position>
+      <Position Caption="Смеси бетонные, БСГ, тяжелого бетона на гранитном щебне, класс прочности В25 (М350); П3, фракция 5-20, F300, W8" Number="50" Code="1.3-1-41" ColorIndex="9" Units="м3" SysID="250" PriceLevel="2001" Quantity="ОКР(14,63; 7)" IndexCode="1.3-1-41" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="2400">
+        <Quantity Fx="=14,63" Precision="7" Result="14,63"/>
+        <PriceBase PZ="745,24" MT="745,24"/>
+      </Position>
+      <Position Caption="Сталь арматурная рифленая свариваемая, класс А500С, диаметр 12 мм" Number="51" Code="1.3-4-189" ColorIndex="9" Units="т" SysID="251" PriceLevel="2001" Quantity="ОКР(1,00937; 7)" IndexCode="1.3-4-189" DBFlags="Comment" PzSync="Yes" Vr2001="10631" Mass="1000">
+        <Quantity Fx="=1,00937" Precision="7" Result="1,00937"/>
+        <PriceBase PZ="9329,74" MT="9329,74"/>
+      </Position>
+    </Chapter>
+  </Chapters>
+  <ReportOptions Options="Grouping SeparateZakPodr" Kk="1" RangingGroups="Mch Mat">
+    <RangingRates Mch="20" Mat="20"/>
+  </ReportOptions>
+</Document>

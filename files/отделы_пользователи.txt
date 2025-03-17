@@ -1,0 +1,76 @@
+ГД
+Дурнов А.А.
+{
+  "Email": "a.durnov@dm-corp.ru",
+  "Password": "111"
+}
+
+Бухгалтерия
+Иванова А.С. - a.ivanova@dm-corp.ru
+{
+  "Email": "a.ivanova@dm-corp.ru",
+  "Password": "111"
+}
+
+Финансы
+Смирнова Б.И. - b.smirnova@dm-corp.ru
+{
+  "Email": "b.smirnova@dm-corp.ru",
+  "Password": "111"
+}
+
+СБ
+Кузнецова С.Д. - s.kuznetsova@dm-corp.ru
+{
+  "Email": "s.kuznetsova@dm-corp.ru",
+  "Password": "111"
+}
+
+ГИ
+Попова С.Н. - s.popova@dm-corp.ru
+{
+  "Email": "s.popova@dm-corp.ru",
+  "Password": "111"
+}
+
+РП
+Васильева Н.А. - n.vasilieva@dm-corp.ru
+{
+  "Email": "n.vasilieva@dm-corp.ru",
+  "Password": "111"
+}
+
+Снабжение
+Петрова М.В. - m.petrova@dm-corp.ru
+{
+  "Email": "m.petrova@dm-corp.ru",
+  "Password": "111"
+}
+
+ПТО
+Соколова П.И. - p.sokolova@dm-corp.ru
+{
+  "Email": "p.sokolova@dm-corp.ru",
+  "Password": "111"
+}
+
+СДО
+Михайлова А.Б. - a.mikhailova@dm-corp.ru
+{
+  "Email": "a.mikhailova@dm-corp.ru",
+  "Password": "111"
+}
+
+НУ
+Новикова Д.К. - d.novikova@dm-corp.ru
+{
+  "Email": "d.novikova@dm-corp.ru",
+  "Password": "111"
+}
+
+IT
+Бородавкин К.В - bkv@dm-corp.ru
+{
+  "Email": "bkv@dm-corp.ru",
+  "Password": "111"
+}

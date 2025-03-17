@@ -1,0 +1,457 @@
+[
+    {
+        "ID": 418,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Иванов С.С.",
+        "CreatedDateTime": "20.11.2023 13:50",
+        "LastModifiedBy": "Петров А.А.",
+        "LastModifiedDateTime": "20.11.2023 18:29",
+        "IsMch": 1,
+        "IsMat": 1,
+        "Status": "Черновик",
+        "ProjectName": "Подпорная стена",
+        "ObjectName": "Люберцы",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 1
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 1
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 0
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 0
+            }
+        ],
+        "Percentages": {
+            "Ordered": 0.6034,
+            "Payed": 0.5237,
+            "Delivered": 0.2001
+        },
+        "WorkName": "Устройство шумозащитных экранов",
+        "ResourceList": [
+            {
+                "ResourceId": 824,
+                "ResourceVid": 1,
+                "ResourceName": "Шпилька М24х500.099 09 Г 2 С-4",
+                "Measure": "шт",
+                "Explanation": "для проведения строительных работ требуется дополнительный материал",
+                "Qty": 513
+            },
+            {
+                "ResourceId": 4456,
+                "ResourceVid": 0,
+                "ResourceName": "Гайка М24.099",
+                "Measure": "упак",
+                "Qty": 111
+            },
+            {
+                "ResourceId": 726,
+                "ResourceVid": 0,
+                "ResourceName": "Бетон В30 F200 W4 ",
+                "Measure": "т",
+                "Qty": 34
+            },
+            {
+                "ResourceId": 462,
+                "ResourceVid": 2,
+                "ResourceName": "Полоса 10х410х310/C255-4",
+                "Measure": "шт",
+                "Qty": 5
+            },
+            {
+                "ResourceId": 426,
+                "ResourceVid": 3,
+                "ResourceName": "Арматурный каркас КР-1 сваи БНС-3,55/530-8/18",
+                "Measure": "шт",
+                "Qty": 2,
+                "Explanation": "В ходе строительных работ возникла необходимость в приобретении дополнительного материала."
+            }
+        ]
+    },
+    {
+        "ID": 789,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Смирнова Е.В.",
+        "CreatedDateTime": "25.02.2023 09:15",
+        "LastModifiedBy": "Сидоров И.А.",
+        "LastModifiedDateTime": "26.02.2023 14:37",
+        "IsTzr": 1,
+        "Status": "На рассмотрении",
+        "ProjectName": "Тяговый подвижной состав",
+        "ObjectName": "Москва",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 1
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 0
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 0
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 0
+            }
+        ],
+        "Percentages": {
+            "Ordered": 0.4078,
+            "Payed": 0.2023,
+            "Delivered": 0.1052
+        },
+        "WorkName": "Обмазка  поверхностей ж.б. конструкций, соприкасающихся с землей ниже проетной земли 2 слоями битумной мастики",
+        "ResourceList": [
+            {
+                "ResourceId": 982,
+                "ResourceVid": 0,
+                "ResourceName": "Шина Р65 3c",
+                "Measure": "м",
+                "Qty": 126
+            },
+            {
+                "ResourceId": 732,
+                "ResourceVid": 0,
+                "ResourceName": "Выключатель ВКМ-35",
+                "Measure": "шт",
+                "Explanation": "В ходе строительных работ возникла необходимость в приобретении дополнительного материала.",
+                "Qty": 45
+            },
+            {
+                "ResourceId": 531,
+                "ResourceVid": 1,
+                "ResourceName": "Трансформатор ТММ-200",
+                "Measure": "шт",
+                "Qty": 7
+            },
+            {
+                "ResourceId": 1084,
+                "ResourceVid": 3,
+                "ResourceName": "Болт М16х1000",
+                "Measure": "шт",
+                "Qty": 21,
+                "Explanation": "Для продолжения строительных работ требуется дополнительное поставление строительного материала."
+            },
+            {
+                "ResourceId": 224,
+                "ResourceVid": 2,
+                "ResourceName": "Кабель КРУ-2x2,5",
+                "Measure": "м",
+                "Qty": 200
+            }
+        ]
+    },
+    {
+        "ID": 123,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Петров А.А.",
+        "CreatedDateTime": "10.07.2023 11:20",
+        "LastModifiedBy": "Сидоров И.А.",
+        "LastModifiedDateTime": "11.07.2023 15:46",
+        "IsMch": 1,
+        "Status": "Утверждено",
+        "ProjectName": "Офисное здание",
+        "ObjectName": "Санкт-Петербург",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 1
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 1
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 1
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 1
+            }
+        ],
+        "Percentages": {
+            "Ordered": 0.100,
+            "Payed": 0.905,
+            "Delivered": 0.7532
+        },
+        "WorkName": "Многослойная звукопоглощающая металлическая панель с перфорацией RAL-3020 ГОСТ 33329-2015 L=2960",
+        "ResourceList": [
+            {
+                "ResourceId": 345,
+                "ResourceVid": 0,
+                "ResourceName": "Кондиционер split-система 2.0",
+                "Measure": "шт",
+                "Qty": 15
+            },
+            {
+                "ResourceId": 989,
+                "ResourceVid": 0,
+                "ResourceName": "Доска пола погонажная толщ. 40 мм",
+                "Measure": "м²",
+                "Qty": 120
+            },
+            {
+                "ResourceId": 765,
+                "ResourceVid": 3,
+                "ResourceName": "Стекло оконное",
+                "Measure": "м²",
+                "Qty": 55,
+                "Explanation": "Дополнительное количество материала необходимо для завершения строительных работ."
+            },
+            {
+                "ResourceId": 532,
+                "ResourceVid": 2,
+                "ResourceName": "Лампочка светодиодная 15 Вт",
+                "Measure": "шт",
+                "Qty": 500,
+                "Explanation": "Для успешной реализации проекта требуется дополнительный запас строительных материалов."
+            },
+            {
+                "ResourceId": 222,
+                "ResourceVid": 1,
+                "ResourceName": "Кабельный лоток КЛ 150х75",
+                "Measure": "м",
+                "Qty": 250
+            }
+        ]
+    },
+    {
+        "ID": 563,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Сидоров И.А.",
+        "CreatedDateTime": "05.12.2023 08:40",
+        "LastModifiedBy": "Смирнова Е.В.",
+        "LastModifiedDateTime": "06.12.2023 13:25",
+        "IsTzr": 1,
+        "IsMat": 1,
+        "Status": "Доставка",
+        "ProjectName": "Жилой комплекс",
+        "ObjectName": "Ростов-на-Дону",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 0
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 0
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 0
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 0
+            }
+        ],
+        "Percentages": {
+            "Ordered": 0.8015,
+            "Payed": 0.7025,
+            "Delivered": 0.5564
+        },
+        "WorkName": "Окраска поверхностей ж.б. конструкций, выше отметки проектной земли, в 2 слоя водно-дисперсной полиакриловой краской RAL 7040",
+        "ResourceList": [
+            {
+                "ResourceId": 776,
+                "ResourceVid": 0,
+                "ResourceName": "Панель стены 300х400х200",
+                "Measure": "шт",
+                "Qty": 60
+            },
+            {
+                "ResourceId": 432,
+                "ResourceVid": 0,
+                "ResourceName": "Гвоздь стальной 70 мм",
+                "Measure": "кг",
+                "Qty": 10
+            },
+            {
+                "ResourceId": 1089,
+                "ResourceVid": 0,
+                "ResourceName": "Стеклопакет 1200x800",
+                "Measure": "шт",
+                "Qty": 30
+            },
+            {
+                "ResourceId": 593,
+                "ResourceVid": 3,
+                "ResourceName": "Шпатлевка стен гипсовая",
+                "Measure": "кг",
+                "Qty": 25,
+                "Explanation": "Для обеспечения непрерывности строительных работ потребуется дополнительное снабжение материалами."
+            },
+            {
+                "ResourceId": 428,
+                "ResourceVid": 0,
+                "ResourceName": "Арматурный каркас КС-1 перекрытия Ф 12",
+                "Measure": "шт",
+                "Qty": 8,
+                "Explanation": "Для удовлетворения потребностей строительства необходимо приобрести дополнительный материал."
+            }
+        ]
+    },
+    {
+        "ID": 563,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Сидоров И.А.",
+        "CreatedDateTime": "05.12.2023 08:40",
+        "LastModifiedBy": "Смирнова Е.В.",
+        "LastModifiedDateTime": "06.12.2023 13:25",
+        "IsTzr": 1,
+        "IsMat": 1,
+        "Status": "Доставка",
+        "ProjectName": "Жилой комплекс",
+        "ObjectName": "Ростов-на-Дону",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 0
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 0
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 0
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 0
+            }
+        ],
+        "Percentages": {
+            "Ordered": 0.8015,
+            "Payed": 0.7025,
+            "Delivered": 0.5564
+        },
+        "WorkName": "Устройство БНС",
+        "ResourceList": [
+            {
+                "ResourceId": 776,
+                "ResourceVid": 2,
+                "ResourceName": "Панель стены 300х400х200",
+                "Measure": "шт",
+                "Qty": 60,
+                "Explanation": "В связи с увеличением объема строительных работ требуется дополнительное поставление строительного материала."
+            },
+            {
+                "ResourceId": 432,
+                "ResourceVid": 3,
+                "ResourceName": "Гвоздь стальной 70 мм",
+                "Measure": "кг",
+                "Qty": 10,
+                "Explanation": "Необходимость использования дополнительного материала возникла в ходе текущих строительных операций."
+            },
+            {
+                "ResourceId": 1089,
+                "ResourceVid": 0,
+                "ResourceName": "Стеклопакет 1200x800",
+                "Measure": "шт",
+                "Qty": 30
+            },
+            {
+                "ResourceId": 593,
+                "ResourceVid": 0,
+                "ResourceName": "Шпатлевка стен гипсовая",
+                "Measure": "кг",
+                "Qty": 25
+            },
+            {
+                "ResourceId": 428,
+                "ResourceVid": 1,
+                "ResourceName": "Арматурный каркас КС-1 перекрытия Ф 12",
+                "Measure": "шт",
+                "Qty": 8
+            }
+        ]
+    },
+    {
+        "ID": 987,
+        "Type": "Заявка на закупку",
+        "CreatedBy": "Ковалев М.В.",
+        "CreatedDateTime": "15.09.2023 17:30",
+        "LastModifiedBy": "Смирнова Е.В.",
+        "LastModifiedDateTime": "16.09.2023 09:55",
+        "IsMch": 1,
+        "IsTzr": 0,
+        "IsMat": 1,
+        "Status": "Завершено",
+        "ProjectName": "Бридж",
+        "ObjectName": "Новосибирск",
+        "Verified": [
+            {
+                "divisionName": "ПТО",
+                "status": 1
+            },
+            {
+                "divisionName": "Главный Инженер",
+                "status": 1
+            },
+            {
+                "divisionName": "Юридический отдел",
+                "status": 1
+            },
+            {
+                "divisionName": "Генеральный директор",
+                "status": 1
+            }
+        ],
+        "Percentages": {
+            "Ordered": 1,
+            "Payed": 1,
+            "Delivered": 1
+        },
+        "WorkName": "Устройство ростверков Р-1",
+        "ResourceList": [
+            {
+                "ResourceId": 682,
+                "ResourceVid": 0,
+                "ResourceName": "Сталь 40х6",
+                "Measure": "т",
+                "Qty": 5,
+                "Explanation": "Расширение объема строительных работ требует дополнительного поступления нужного материала."
+            },
+            {
+                "ResourceId": 602,
+                "ResourceVid": 0,
+                "ResourceName": "Болт М12х80",
+                "Measure": "шт",
+                "Qty": 120,
+                "Explanation": "Для успешной завершения строительных процессов требуется обеспечить дополнительный запас материала."
+            },
+            {
+                "ResourceId": 564,
+                "ResourceVid": 2,
+                "ResourceName": "Бетон стойкость М400",
+                "Measure": "м³",
+                "Qty": 90
+            },
+            {
+                "ResourceId": 327,
+                "ResourceVid": 1,
+                "ResourceName": "Дюбель анкерный 200 мм",
+                "Measure": "шт",
+                "Qty": 50
+            },
+            {
+                "ResourceId": 414,
+                "ResourceVid": 3,
+                "ResourceName": "Сварочный аппарат Inverter 300",
+                "Measure": "шт",
+                "Qty": 3
+            }
+        ]
+    }
+]

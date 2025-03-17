@@ -1,0 +1,32 @@
+[
+    {
+        "ID": 2,
+        "CreatedByID": -1,
+        "CreatedByName": "Евгений",
+        "CreatedDateTime": "2023-11-21T15:36:00Z",
+        "LastModifiedBID": -1,
+        "LastModifiedByName": "Бородавкин К.В.",
+        "LastModifiedDateTime": "2023-11-21T15:36:00Z",
+        "ObjectID": 2,
+        "ObjectName": "ст.Столбовая",
+        "ProjectID": 2,
+        "ProjectName": "ст.Столбовая",
+        "Name": "Лимитно-заборная ведомость для \"ст.Столбовая\"",
+        "ACRWorksList": []
+    },
+    {
+        "ID": 1,
+        "CreatedByID": -1,
+        "CreatedByName": "Евгений",
+        "CreatedDateTime": "2023-11-21T15:36:00Z",
+        "LastModifiedBID": -1,
+        "LastModifiedByName": "Бородавкин К.В.",
+        "LastModifiedDateTime": "2023-12-04T17:00:00Z",
+        "ObjectID": 1,
+        "ObjectName": "Новогодняя Ёлка",
+        "ProjectID": 1,
+        "ProjectName": "Новогодняя Ёлка",
+        "Name": "Лимитно-заборная ведомость для \"Новогодняя Ёлка\"",
+        "ACRWorksList": []
+    }
+]

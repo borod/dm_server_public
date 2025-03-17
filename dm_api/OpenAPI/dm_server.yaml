@@ -1,0 +1,613 @@
+swagger: "2.0"
+info:
+  title: DM Server API
+  description: DM Server API
+  version: "1.0.0"
+
+paths:
+  /api/actions/chat_participants:
+    get:
+      summary: Получить участников чата
+      description: Получить список участников указанного чата
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: ID
+          in: query
+          description: Идентификатор чата
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/ChatParticipant"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+
+  /api/actions/chat_messages:
+    get:
+      summary: Получить сообщения чата
+      description: Получить список сообщений указанного чата
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: ID
+          in: query
+          description: Идентификатор чата
+          required: true
+          type: string
+        - name: COUNT
+          in: query
+          description: Количество сообщений для подсчета
+          required: false
+          type: string
+        - name: LAST
+          in: query
+          description: Последнее сообщение
+          required: false
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/MessageResponse"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+      
+  /api/actions/verify:
+    post:
+      summary: Верификация данных
+      description: Создание объекта верификации на основе предоставленных данных
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+
+        - name: body
+          in: body
+          description: Информация о проверке
+          required: true
+          schema:
+            $ref: "#/definitions/VerifyRequestPayload"
+            
+      responses:
+        201:
+          description: Успешное создание
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+      
+  /api/actions/create_chat:
+    post:
+      summary: Создать чат
+      description: Создать новый чат с указанными параметрами
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: body
+          in: body
+          description: Информация о чате
+          required: true
+          schema:
+            $ref: "#/definitions/CreateChatRequestPayload"
+
+      responses:
+        201:
+          description: Успешное создание
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+
+  /api/actions/residue_request:
+    get:
+      summary: Получить остаток заявки
+      description: Получить остаток заявки на основе указанного идентификатора
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: ID
+          in: query
+          description: Идентификатор заявки
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            $ref: "#/definitions/ResidueResponse"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+      
+  /api/actions/residue_invoice:
+    get:
+      summary: Получить остаток счета
+      description: Получить остаток счета на основе указанного идентификатора
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: ID
+          in: query
+          description: Идентификатор счета
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            $ref: "#/definitions/ResidueResponse"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+
+  /api/actions/user_divisions:
+    get:
+      summary: Получить подразделения пользователя
+      description: Получить список подразделений указанного пользователя на основе его идентификатора
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: ID
+          in: query
+          description: Идентификатор пользователя
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/UserDivisionsResponse"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+
+  /api/actions/enums:
+    get:
+      summary: Получить перечисления
+      description: Получить перечисления для различных статусов
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            type: object
+            properties:
+              Заявка:
+                $ref: "#/definitions/EnumResponse"
+              Заказ:
+                $ref: "#/definitions/EnumResponse"
+              Счёт:
+                $ref: "#/definitions/EnumResponse"
+              Согласование:
+                $ref: "#/definitions/EnumResponse"
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        500:
+          description: Внутренняя ошибка сервера
+      
+  /api/register:
+    post:
+      summary: Создать пользователя
+      description: Создать нового пользователя на основе предоставленной информации
+      responses:
+        200:
+          description: Успешное создание пользователя
+        400:
+          description: Ошибка запроса
+        500:
+          description: Внутренняя ошибка сервера
+      parameters:
+        - name: body
+          in: body
+          description: Информация о пользователе
+          required: true
+          schema:
+            $ref: "#/definitions/UserRegistrationRequest"
+      
+  /api/login:
+    post:
+      summary: Вход в систему
+      description: Выполнить вход в систему на основе предоставленных учетных данных
+      responses:
+        200:
+          description: Успешный вход
+        400:
+          description: Ошибка запроса
+        401:
+          description: Неудачная попытка входа
+        500:
+          description: Внутренняя ошибка сервера
+      parameters:
+        - name: body
+          in: body
+          description: Информация для входа в систему
+          required: true
+          schema:
+            $ref: "#/definitions/LoginRequest"
+
+  /api/user:
+    get:
+      summary: Получить данные пользователя
+      description: Получить данные пользователя по его электронной почте
+      parameters:
+        - name: email
+          in: query
+          description: Электронная почта пользователя
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+          schema:
+            $ref: "#/definitions/UserResponse"
+        400:
+          description: Ошибка запроса
+        404:
+          description: Пользователь не найден
+        405:
+          description: Метод не разрешен
+        500:
+          description: Внутренняя ошибка сервера
+
+  /api/chat/{entity}:
+    get:
+      summary: Получить сущность чата
+      description: Получить сущность чата по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности чата
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+      x-swagger-router-controller: ChatHandler
+    post:
+      summary: Создать сущность чата
+      description: Создать новую сущность чата по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности чата
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное создание
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+      x-swagger-router-controller: ChatHandler
+    patch:
+      summary: Обновить сущность чата
+      description: Обновить существующую сущность чата по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности чата
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное обновление
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+      x-swagger-router-controller: ChatHandler
+    delete:
+      summary: Удалить сущность чата
+      description: Удалить существующую сущность чата по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности чата
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное удаление
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+      x-swagger-router-controller: ChatHandler
+
+  /api/entity/{entity}:
+    get:
+      summary: Получить сущность
+      description: Получить сущность по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешный ответ
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+    post:
+      summary: Создать сущность
+      description: Создать новую сущность по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное создание
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+    patch:
+      summary: Обновить сущность
+      description: Обновить существующую сущность по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное обновление
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+    delete:
+      summary: Удалить сущность
+      description: Удалить существующую сущность по указанному пути
+      parameters:
+        - name: X-dmtoken
+          in: header
+          description: Токен аутентификации пользователя
+          required: true
+          type: string
+        - name: entity
+          in: path
+          description: Название сущности
+          required: true
+          type: string
+      responses:
+        200:
+          description: Успешное удаление
+        400:
+          description: Ошибка запроса
+        401:
+          description: Пользователь не аутентифицирован
+        405:
+          description: Метод не разрешен
+definitions:
+  ChatParticipant:
+    type: object
+    properties:
+      ID:
+        type: integer
+        format: int64
+      Name:
+        type: string
+      Nickname:
+        type: string
+    
+  MessageResponse:
+    type: object
+    properties:
+      ID:
+        type: integer
+        format: int64
+      CT:
+        type: string
+        format: date-time
+      Content:
+        type: string
+      AuthorID:
+        type: integer
+        format: int64
+      ChatID:
+        type: integer
+        format: int64
+      Author:
+        type: string
+
+  VerifyRequestPayload:
+    type: object
+    properties:
+      RequestItemID:
+        type: string
+      InvoiceID:
+        type: string
+      Status:
+        type: string
+
+  CreateChatRequestPayload:
+    type: object
+    properties:
+      Name:
+        type: string
+      Participants:
+        type: array
+        items:
+          type: integer
+        uniqueItems: true
+      Justification:
+        type: string
+      InvoiceID:
+        type: integer
+      RequestID:
+        type: integer
+
+  ResidueResponse:
+    type: object
+    properties:
+      Residue:
+        type: number
+        format: float
+      Total:
+        type: number
+        format: float
+
+  UserDivisionsResponse:
+    type: object
+    properties:
+      ID:
+        type: integer
+        format: int64
+      Name:
+        type: string
+    
+  EnumResponse:
+    type: object
+    properties:
+      Statuses:
+        type: array
+        items:
+          type: string
+
+  UserRegistrationRequest:
+    type: object
+    properties:
+      Email:
+        type: string
+        format: email
+      Password:
+        type: string
+    
+  LoginRequest:
+    type: object
+    properties:
+      Email:
+        type: string
+        format: email
+      Password:
+        type: string
+    
+  UserResponse:
+    type: object
+    properties:
+      email:
+        type: string
+        format: email
+      name:
+        type: string
+      # остальные свойства пользователя
+    

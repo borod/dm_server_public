@@ -1,0 +1,21 @@
+{
+  "InvoiceID": 1,
+  "ProjectID": 2,
+  "ObjectID": 2,
+  "ARCID": 2,
+  "ARCWorkItemID": 1,
+  "RequestID": 1,
+  "RequestItemID": 1,
+  "Name": "Бетон В30 F150 W8",
+  "Measure": "м3",
+  "Qty": 5.5,
+  "UPWithoutNDS": 100.0,
+  "UPWithNDS": 100.0,
+  "UPWithoutDiscount": 100.0,
+  "UPWithDiscount": 100.0,
+  "TCWithoutNDS": 100.0,
+  "TCWithNDS": 100.0,
+  "TCWithoutDiscount": 100.0,
+  "TCWithDiscount": 100.0,
+  "RequiredAtDateTime": "2024-05-27T12:34:56Z"
+}

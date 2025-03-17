@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "65b3960f9e3c186f342b34bf"
+  },
+  "ID": 1,
+  "NumberStr": "001",
+  "Date": {
+    "$date": "2022-01-01T00:00:00.000Z"
+  },
+  "SupplierID": 1,
+  "CustomerID": 2,
+  "PayerID": 2,
+  "Status": 0,
+  "ProjctID": 1,
+  "ObjectID": 1,
+  "FPWithoutNDS": 1000,
+  "FPWithNDS": 1200,
+  "FPNDS": 200,
+  "TotalWeight": 50,
+  "MeasureWeight": "кг",
+  "Verifications": [],
+  "InvoiceItems": []
+},
+{
+  "_id": {
+    "$oid": "65b3960f9e3c186f342b34c0"
+  },
+  "ID": 2,
+  "NumberStr": "002",
+  "Date": {
+    "$date": "2022-02-01T00:00:00.000Z"
+  },
+  "SupplierID": 3,
+  "CustomerID": 2,
+  "PayerID": 2,
+  "Status": 1,
+  "ProjctID": 2,
+  "ObjectID": 2,
+  "FPWithoutNDS": 2000,
+  "FPWithNDS": 2400,
+  "FPNDS": 400,
+  "TotalWeight": 100,
+  "MeasureWeight": "т",
+  "Verifications": [],
+  "InvoiceItems": []
+}]

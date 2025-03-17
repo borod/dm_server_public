@@ -1,0 +1,30 @@
+{
+  "Name": "Офис Дмитровское ш.81",
+  "Ut": "2006-01-02T15:04:05Z07:00",
+  "DB": {
+    "MySQL": {
+      "User": "mtr_user",
+      "Password": "654456654456",
+      "Host": "159.253.20.128",
+      "Port": "3306",
+      "DBName": "mtr"
+    },
+    "Mongo": {
+      "User": "dm_easy",
+      "Password": "765567765567",
+      "Host": "dmcorporation.ru",
+      "Port": "32757",
+      "DBName": "dm_easy"
+    }
+  },
+  "Crypto": {
+    "HashFunction": "streebog"
+  },
+  "Mail": {
+    "Host": "smtp.mail.ru",
+    "Port": 587,
+    "User": "it@dm-corp.ru",
+    "Password": "ibgRc4stz8aTbyJVLaKj",
+    "From": "it@dm-corp.ru"
+  }
+}

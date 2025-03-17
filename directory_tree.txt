@@ -1,0 +1,170 @@
+Ñòğóêòóğà ïàïîê òîìà System
+Ñåğèéíûé íîìåğ òîìà: 72E0-3CCA
+C:.
+¦   .gitignore
+¦   .gitlab-ci.yml
+¦   configuration.json
+¦   directory_tree.txt
+¦   font.ttf
+¦   go.mod
+¦   go.sum
+¦   logo.png
+¦   main.go
+¦   newsline.html
+¦   README.md
+¦   reload_dm_server_bkv.sh
+¦   reload_dm_server_ram.sh
+¦   run_dm_server.sh
+¦   
++---.vscode
+¦       launch.json
+¦       
++---charset
+¦       charset.go
+¦       
++---dm_api
+¦   ¦   dm_api.go
+¦   ¦   dm_redirect.go
+¦   ¦   init.go
+¦   ¦   
+¦   +---dm_actions
+¦   ¦       actions.go
+¦   ¦       actions_page_data.go
+¦   ¦       chat.go
+¦   ¦       init.go
+¦   ¦       routes.go
+¦   ¦       structs.go
+¦   ¦       
+¦   +---dm_authorization
+¦   ¦       authorization.go
+¦   ¦       init.go
+¦   ¦       routes.go
+¦   ¦       structs.go
+¦   ¦       
+¦   +---dm_bp
+¦   ¦       bp.go
+¦   ¦       init.go
+¦   ¦       routes.go
+¦   ¦       structs.go
+¦   ¦       
+¦   +---dm_entity
+¦   ¦       entity.go
+¦   ¦       init.go
+¦   ¦       routes.go
+¦   ¦       structs.go
+¦   ¦       
+¦   +---dm_list
+¦   ¦       init.go
+¦   ¦       list.go
+¦   ¦       routes.go
+¦   ¦       structs.go
+¦   ¦       
+¦   +---entities
+¦   ¦       entities.go
+¦   ¦       s_availableResourcesCatalog.go
+¦   ¦       s_common.go
+¦   ¦       s_request.go
+¦   ¦       s_structs.go
+¦   ¦       
+¦   +---estimate
+¦   ¦       estimate.go
+¦   ¦       
+¦   +---heartbeat
+¦   ¦       heartbeat.go
+¦   ¦       
+¦   +---OpenAPI
+¦   ¦       chat.yaml
+¦   ¦       dm_server.yaml
+¦   ¦       entity.yaml
+¦   ¦       
+¦   L---upload
+¦           upload.go
+¦           
++---dm_configuration
+¦       configuration.go
+¦       init.go
+¦       structs.go
+¦       
++---dm_crypto
+¦       crypto.go
+¦       init.go
+¦       
++---dm_db
+¦   ¦   db.go
+¦   ¦   init.go
+¦   ¦   
+¦   +---dm_mongo
+¦   ¦       init.go
+¦   ¦       mongo.go
+¦   ¦       structs.go
+¦   ¦       
+¦   L---dm_mysql
+¦           init.go
+¦           mysql.go
+¦           structs_bp.go
+¦           structs_chat.go
+¦           structs_core.go
+¦           structs_dmfile.go
+¦           structs_user.go
+¦           
++---dm_excel
+¦       excel.go
+¦       init.go
+¦       
++---dm_helper
+¦       helper.go
+¦       init.go
+¦       test.json
+¦       
++---dm_json
+¦       dm_json.go
+¦       
++---dm_mailer
+¦       init.go
+¦       mailer.go
+¦       
++---dm_redmine
+¦       init.go
+¦       redmine.go
+¦       structs.go
+¦       
++---dm_xml
+¦       smeta.go
+¦       smeta_struct.go
+¦       
++---files
+¦   ¦   dm_easy.mdbQuerySample.json
+¦   ¦   exampleARC.xlsx
+¦   ¦   requests.json
+¦   ¦   smeta.xml
+¦   ¦   test.json
+¦   ¦   êîìïàíèè.txt
+¦   ¦   îòäåëû_ïîëüçîâàòåëè.txt
+¦   ¦   Ïëàò¸æ.txt
+¦   ¦   ïëàò¸æíîå_ïîğó÷åíèå.txt
+¦   ¦   Ñòğîêà_â_ñ÷¸òå.txt
+¦   ¦   Ñ÷¸ò.txt
+¦   ¦   
+¦   +---mail_templates
+¦   ¦       resetpasswordlink.html
+¦   ¦       
+¦   L---MongoData
+¦           ARCs.json
+¦           ARCWorkItems.json
+¦           ARCWorks.json
+¦           Counteragents.json
+¦           dm_easy.Objects.json
+¦           dm_easy.Projects.json
+¦           InvoiceItems.json
+¦           Invoices.json
+¦           RequestItems.json
+¦           Requests.json
+¦           Verifications.json
+¦           
+L---reminders
+        interface.go
+        mysql_dump_only_data.txt
+        once.go
+        test.json
+        òîï10êåø.txt
+        

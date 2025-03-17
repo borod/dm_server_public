@@ -1,0 +1,19 @@
+{
+  "CreatedByID": 2,
+  "LastModifiedByID": 2,
+  "NumberStr": "СЧ 100501",
+  "Date": "2024-05-27T12:34:56Z",
+  "LastModifiedDateTime": "2024-05-27T12:34:56Z",
+  "SupplierID": 2,
+  "CustomerID": 1,
+  "PayerID": 1,
+  "Status": 1,
+  "ProjectID": 2,
+  "ObjectID": 2,
+  "FPWithoutNDS": 100,
+  "FPWithNDS": 100,
+  "FPNDS": 100,
+  "FPWithDiscount": 100,
+  "TotalWeight": 2.0,
+  "MeasureWeight": "т"
+}

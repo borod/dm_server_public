@@ -1,0 +1,120 @@
+openapi: 3.0.0
+info:
+  title: Chat API
+  version: 1.0.0
+paths:
+  /chat/{entityName}:
+    get:
+      summary: Получить сущность из чата
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: entityID
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    post:
+      summary: Создать сущность в чате
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: entityID
+          required: true
+          schema:
+            type: integer
+        - in: header
+          name: X-dmtoken
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Entity'
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    patch:
+      summary: Обновить сущность в чате
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: entityID
+          required: true
+          schema:
+            type: integer
+        - in: header
+          name: X-dmtoken
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Entity'
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    delete:
+      summary: Удалить сущность из чата
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: entityID
+          required: true
+          schema:
+            type: integer
+        - in: header
+          name: X-dmtoken
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Успешный ответ
+components:
+  schemas:
+    Entity:
+      type: object
+      properties:
+        ID:
+          type: integer
+        CT:
+          type: string
+          format: date-time
+        

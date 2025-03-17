@@ -1,0 +1,44 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  SSH_KNOWN_HOSTS: "45.12.236.31"
+  SSH_USER: "vladdd183"
+  SSH_PASSWORD: "123dm" # 123
+
+build:
+  stage: build
+  image: golang:latest
+  script:
+    - go build -o dm_server
+  artifacts:
+    paths:
+      - dm_server
+      - configuration.json
+
+deploy:
+  stage: deploy
+  image: debian:latest # Используем Debian образ для деплоя
+  dependencies:
+    - build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y openssh-client sshpass
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan $SSH_KNOWN_HOSTS >> ~/.ssh/known_hosts
+  script:
+    - sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_KNOWN_HOSTS "sudo rm -rf /home/vladdd183/dm_server"
+    - sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_KNOWN_HOSTS "mkdir -p /home/vladdd183/dm_server/ "
+    - sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no ./dm_server ./configuration.json $SSH_USER@$SSH_KNOWN_HOSTS:/home/vladdd183/dm_server/
+    - |
+      sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_KNOWN_HOSTS <<EOF
+        (sudo rm /opt/dm/dm_server/dm_server /opt/dm/dm_server/configuration.json || true) &&
+        sudo cp /home/vladdd183/dm_server/dm_server /opt/dm/dm_server/ &&
+        sudo cp /home/vladdd183/dm_server/configuration.json /opt/dm/dm_server/ &&
+        sudo chmod 770 /opt/dm/dm_server/dm_server &&
+        sudo chown -R root:root /opt/dm/dm_server  &&
+        sudo systemctl restart dm_server &&
+        sudo ls -la /opt/dm/dm_server 
+      EOF

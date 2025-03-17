@@ -1,0 +1,121 @@
+openapi: 3.0.0
+info:
+  title: Entity API
+  version: 1.0.0
+paths:
+  /entity/{entityName}:
+    get:
+      summary: Получить объекты коллекции
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: mdbQuery
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Entity'
+    post:
+      summary: Создать документы
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    put:
+      summary: Обновить документы
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: mdbQuery
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    patch:
+      summary: Частично обновить документы
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: mdbQuery
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Entity'
+    delete:
+      summary: Удалить документы
+      parameters:
+        - in: path
+          name: entityName
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: mdbQuery
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Успешный ответ
+components:
+  schemas:
+    Entity:
+      type: object
+      properties:

@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "65b395f59e3c186f342b34bc"
+  },
+  "ID": 1001,
+  "InvoiceID": 1,
+  "ProjectID": 1,
+  "ObjectID": 1,
+  "ARCID": 1,
+  "ARCWorkItemID": 200,
+  "RequestID": 20,
+  "RequestItemID": 10,
+  "Asset": "Песок",
+  "Measure": "т",
+  "Qty": 10,
+  "UPWithoutNDS": 100,
+  "UPWithNDS": 120,
+  "UPWithoutDiscount": 100,
+  "UPWithDiscount": 120,
+  "TCWithoutNDS": 1000,
+  "TCWithNDS": 1200,
+  "TCWithoutDiscount": 1000,
+  "TCWithDiscount": 1200
+},
+{
+  "_id": {
+    "$oid": "65b395f59e3c186f342b34bd"
+  },
+  "ID": 1002,
+  "InvoiceID": 2,
+  "ProjectID": 2,
+  "ObjectID": 2,
+  "ARCID": 2,
+  "ARCWorkItemID": 300,
+  "RequestID": 30,
+  "RequestItemID": 20,
+  "Asset": "Арматура",
+  "Measure": "шт",
+  "Qty": 20,
+  "UPWithoutNDS": 200,
+  "UPWithNDS": 240,
+  "UPWithoutDiscount": 200,
+  "UPWithDiscount": 240,
+  "TCWithoutNDS": 4000,
+  "TCWithNDS": 4800,
+  "TCWithoutDiscount": 4000,
+  "TCWithDiscount": 4800
+}]
